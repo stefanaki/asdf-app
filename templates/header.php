@@ -32,7 +32,7 @@
                       Hotel Management
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                         <li><a class="dropdown-item" href="#">Customer Data</a></li>
+                         <li><a class="dropdown-item" href="customer_info.php">Customer Info</a></li>
                          <li>
                            <hr class="dropdown-divider">
                          </li>
