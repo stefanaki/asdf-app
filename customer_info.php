@@ -19,9 +19,9 @@
     $delete_query = "DELETE FROM customers
                      WHERE nfc_id = '$customer'";
 
-    if (mysqli_query($db, $delete_query)) {
+    if (mysqli_query($db, $delete_query))
       echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer deleted successfully.</div>';
-    };
+
 
   } ?>
 
@@ -83,7 +83,7 @@
       </table>
 
       <form class="mb-3" action="customer_info.php" method="POST" style="margin: 0 25%">
-        <div class="mb-3 d-grid gap-2 col-3 mx-auto pt-2" style="float: right">
+        <div class="mb-3 gap-2 mx-auto pt-2" style="float: right">
           <button type="submit" name="delete" value="delete" class="btn btn-danger">Delete Customer</button>
         </div>
       </form>
