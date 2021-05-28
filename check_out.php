@@ -59,7 +59,7 @@
 
     <?php if (isset($_POST['select'])): ?>
       <?php $result = mysqli_query($db, $charges); $_SESSION['customer'] = $_POST['customer']; $sum = 0.0; ?>
-      <table class="table table-striped table-hover mx-auto mb-3" style="width: 50%; margin: 0 25%">
+      <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3" style="width: 50%; margin: 0 25%">
         <thead>
         <tr class="text-center">
           <th scope="col">Date</th>
@@ -79,6 +79,7 @@
         <tr class="text-center">
           <td><b>Total Charges</b></td>
           <td><?php echo number_format($sum, 2, '.', ''); ?></td>
+          <td></td>
         </tr>
 
       </tbody>
