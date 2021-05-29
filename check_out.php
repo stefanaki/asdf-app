@@ -59,27 +59,31 @@
 
     <?php if (isset($_POST['select'])): ?>
       <?php $result = mysqli_query($db, $charges); $_SESSION['customer'] = $_POST['customer']; $sum = 0.0; ?>
-      <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3" style="width: 50%; margin: 0 25%">
+      <table class="table table-striped  table-hover border border-dark border-2 mx-auto mb-4 text-start" style="width: 50%; margin: 0 25%">
         <thead>
-        <tr class="text-center">
-          <th scope="col">Date</th>
-          <th scope="col">Charge Amount</th>
+        <tr>
+          <th scope="col" class="text-center">Date</th>
+          <th scope="col">Type</th>
           <th scope="col">Description</th>
+          <th scope="col" class="text-end">Charge Amount</th>
         </tr>
       </thead>
       <tbody>
-        <?php while ($row = mysqli_fetch_row($result)): ?>
-          <tr class="text-center">
-            <td><?php echo htmlspecialchars($row[1]); ?></td>
-            <td><?php echo htmlspecialchars($row[2]); ?></td>
-            <td><?php echo htmlspecialchars($row[3]); ?></td>
+        <?php while ($row = $result->fetch_assoc()): ?>
+          <tr >
+            <td class="text-center"><?php echo htmlspecialchars($row['date']); ?></td>
+            <td><?php echo htmlspecialchars($row['type']); ?></td>
+            <td><?php echo htmlspecialchars($row['description']); ?></td>
+            <td class="text-end"><?php echo htmlspecialchars($row['charge']); ?></td>
           </tr>
-          <?php $sum += $row[2] ?>
+          <?php $sum += $row['charge'] ?>
         <?php endwhile; ?>
-        <tr class="text-center">
+        <tr class="text-start table-active table-primary">
           <td><b>Total Charges</b></td>
-          <td><?php echo number_format($sum, 2, '.', ''); ?></td>
           <td></td>
+          <td></td>
+
+          <td class="text-end"><b><?php echo number_format($sum, 2, '.', ''); ?></b></td>
         </tr>
 
       </tbody>

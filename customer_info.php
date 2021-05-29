@@ -61,19 +61,19 @@
           <th scope="col">Age</th>
           <th scope="col">Gender</th>
           <th scope="col">Phone Number(s)</th>
-          <th scope="col">e-mails(s)</th>
+          <th scope="col">e-mail(s)</th>
         </tr>
       </thead>
       <tbody>
-        <?php while ($row = mysqli_fetch_row($result)): ?>
+        <?php while ($row = $result->fetch_assoc()): ?>
           <tr class="text-center">
-            <td><?php echo htmlspecialchars($row[0]); ?></td>
-            <td><?php echo htmlspecialchars($row[1]) . " " . htmlspecialchars($row[2]); ?></td>
-            <td><?php echo htmlspecialchars($row[3]); ?></td>
-            <td><?php echo htmlspecialchars($row[4]); ?></td>
-            <td><?php echo htmlspecialchars($row[5]); ?></td>
-            <td><?php echo htmlspecialchars($row[6]); ?></td>
-            <td><?php echo htmlspecialchars($row[7]); ?></td>
+            <td><?php echo htmlspecialchars($row['nfc_id']); ?></td>
+            <td><?php echo htmlspecialchars($row['first_name']) . " " . htmlspecialchars($row['last_name']); ?></td>
+            <td><?php echo htmlspecialchars($row['verif_id']); ?></td>
+            <td><?php echo htmlspecialchars($row['age']); ?></td>
+            <td><?php echo htmlspecialchars($row['gender']); ?></td>
+            <td><?php echo htmlspecialchars($row['phone_number']); ?></td>
+            <td><?php echo htmlspecialchars($row['e-mail']); ?></td>
           </tr>
         <?php endwhile; ?>
         <tr class="text-center">
