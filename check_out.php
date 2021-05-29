@@ -48,7 +48,7 @@
             <option value="-1" selected>Select Customer</option>
             <?php while ($row = mysqli_fetch_row($cust_result)): ?>
               <option value="<?php echo htmlspecialchars($row[0]); ?>"><?php echo htmlspecialchars($row[1]); ?></option>
-            <?php endwhile; ?>
+            <?php $names[$row[0]] = $row[1]; endwhile; ?>
           </select>
         </div>
         <div class="col-4">
@@ -59,6 +59,8 @@
 
     <?php if (isset($_POST['select'])): ?>
       <?php $result = mysqli_query($db, $charges); $_SESSION['customer'] = $_POST['customer']; $sum = 0.0; ?>
+      <hr>
+      <h4 class="mb-3" style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
       <table class="table table-striped  table-hover border border-dark border-2 mx-auto mb-4 text-start" style="width: 50%; margin: 0 25%">
         <thead>
         <tr>

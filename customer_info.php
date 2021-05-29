@@ -56,7 +56,7 @@
 
     <?php if (isset($_POST['select'])): ?>
       <?php $result = mysqli_query($db, $cust_data); $_SESSION['customer'] = $_POST['customer']; $sum = 0.0; ?>
-
+      <hr>
       <h4 class="mb-3" style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
       <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3" style="width: 50%; margin: 0 25%">
         <thead>
