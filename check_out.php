@@ -21,6 +21,8 @@
 
       if (mysqli_query($db, $delete_query)) {
         echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer checked out successfully.</div>';
+      } else {
+        echo '<div class="mb-3 alert alert-danger" role="alert" style="margin: 0 25%">Error while checking out customer.</div>';
       };
 
     } ?>
