@@ -5,6 +5,7 @@
 <script src="javascript/jquery-3.6.0.min.js"></script>
 <script src="javascript/clock.js"></script>
 
+<!-- Navbar -->
  <header style="margin: 85px;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="margin-bottom: 200px;">
        <div class="container-md">
