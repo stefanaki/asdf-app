@@ -9,7 +9,7 @@
     require_once("./templates/header.php");
     require_once("./db_connect.php");
   ?>
-  
+
   <div class="container-md">
     <h3 class="mb-3 pt-2" style="text-align: center">Insert new customer data in the form below.</h3>
 
@@ -76,24 +76,24 @@
           <input type="text" class="form-control" name="email" placeholder="e-mail">
         </div>
         <div class="mb-3 col">
-          <label for="phone" class="form-label">Phone Number</label>
+          <label for="phone" class="form-label">Phone</label>
           <input type="text" class="form-control" name="phone" placeholder="Phone Number">
         </div>
       </div>
       <div class="row">
 
         <div class="mb-3 col">
-          <label for="verif_type" class="form-label">Type</label>
+          <label for="verif_type" class="form-label">Verification</label>
           <select name="verif_type" name="verif_type" class="form-control">
-            <option value="ID">ID</option>
+            <option value="ID">Identity Card</option>
             <option value="PASSPORT">Passport</option>
           </select>
         </div>
-        <div class="mb-3 col-5">
+        <div class="mb-3 col">
           <label for="verif_id" class="form-label">Verification ID</label>
-          <input type="text" class="form-control" name="verif_id" placeholder="Card or Passport Verification ID">
+          <input type="text" class="form-control" name="verif_id" placeholder="ID">
         </div>
-        <div class="mb-3 col-4">
+        <div class="mb-3 col">
           <label for="verif_date" class="form-label">Date of Verification</label>
           <input type="date" class="form-control" name="verif_date" max="<?php echo $current_date ?>">
         </div>

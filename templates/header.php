@@ -5,6 +5,14 @@
 <script src="javascript/jquery-3.6.0.min.js"></script>
 <script src="javascript/clock.js"></script>
 
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+
+
+
+
 <!-- Navbar -->
  <header style="margin: 85px;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="margin-bottom: 200px;">

@@ -11,6 +11,28 @@
     session_start();
   ?>
 
+  <script>
+    $(document).ready( function () {
+      $('#myTable').DataTable();
+    } );
+  </script>
+
+  <style>
+    div.dataTables_filter, div.dataTables_length {
+      padding: 10px;
+    }
+
+    #myTable_filter input {
+      background-color: white;
+      border-color: black;
+    }
+
+    #myTable_length select {
+      background-color: white;
+      border-color: black;
+    }
+  </style>
+
   <div class="container-fluid">
     <h3 class="mb-3 pt-2" style="text-align: center">Check Out</h3>
 
@@ -62,8 +84,9 @@
     <?php if (isset($_POST['select'])): ?>
       <?php $result = mysqli_query($db, $charges); $_SESSION['customer'] = $_POST['customer']; $sum = 0.0; ?>
       <hr>
-      <h4 class="mb-3" style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
-      <table class="table table-striped  table-hover border border-dark border-2 mx-auto mb-4 text-start" style="width: 50%; margin: 0 25%">
+      <h4 style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
+      <div class="mx-auto mb-3" style="width: 50%">
+      <table id="myTable" class="table table-striped  table-hover border border-dark border-2 mx-auto mb-2 text-start" style="width: 100%; margin: 0 25%">
         <thead>
         <tr>
           <th scope="col" class="text-center">Date</th>
@@ -82,19 +105,23 @@
           </tr>
           <?php $sum += $row['charge'] ?>
         <?php endwhile; ?>
-        <tr class="text-start table-active table-primary">
-          <td><b>Total Charges</b></td>
-          <td></td>
-          <td></td>
-
-          <td class="text-end"><b><?php echo number_format($sum, 2, '.', ''); ?></b></td>
-        </tr>
-
       </tbody>
+      </table>
+      </div>
+
+      <table class="table table-striped  table-hover border border-dark border-2 mx-auto mb-3 text-start" style="width: 50%; margin: 0 25%">
+        <tbody>
+          <tr class="text-start table-active table-primary">
+            <td><b>Total Charges</b></td>
+            <td></td>
+            <td></td>
+            <td class="text-end"><b><?php echo number_format($sum, 2, '.', ''); ?></b></td>
+          </tr>
+        </tbody>
       </table>
 
       <form class="mb-3" action="check_out.php" method="POST" style="margin: 0 25%">
-        <div class="mb-3 d-grid gap-2 col-3 mx-auto pt-2">
+        <div class="mb-3 d-grid gap-2 col-3 mx-auto">
           <button type="submit" name="check_out" value="check_out" class="btn btn-danger">Check Out</button>
         </div>
       </form>
