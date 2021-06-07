@@ -1,13 +1,13 @@
 <!-- Bootstrap CSS & Javascript -->
-<link href="templates/bootstrap.min.css" rel="stylesheet">
-<link href="templates/dataTables.bootstrap5.min.css" rel="stylesheet">
+<link href="assets/styling/bootstrap.min.css" rel="stylesheet">
+<link href="assets/styling/dataTables.bootstrap5.min.css" rel="stylesheet">
 
-<script src="javascript/popper.min.js"></script>
-<script src="javascript/bootstrap.min.js"></script>
-<script src="javascript/jquery-3.5.1.js"></script>
-<script src="javascript/clock.js"></script>
-<script src="javascript/jquery.dataTables.min.js"></script>
-<script src="javascript/dataTables.bootstrap5.min.js"></script>
+<script src="assets/javascript/popper.min.js"></script>
+<script src="assets/javascript/bootstrap.min.js"></script>
+<script src="assets/javascript/jquery-3.5.1.js"></script>
+<script src="assets/javascript/clock.js"></script>
+<script src="assets/javascript/jquery.dataTables.min.js"></script>
+<script src="assets/javascript/dataTables.bootstrap5.min.js"></script>
 
 <!-- Navbar -->
  <header style="margin: 85px;">
