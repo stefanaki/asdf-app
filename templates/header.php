@@ -1,6 +1,6 @@
 <!-- Bootstrap CSS & Javascript -->
-<link href="assets/styling/bootstrap.min.css" rel="stylesheet">
-<link href="assets/styling/dataTables.bootstrap5.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/dataTables.bootstrap5.min.css" rel="stylesheet">
 
 <script src="assets/javascript/popper.min.js"></script>
 <script src="assets/javascript/bootstrap.min.js"></script>
