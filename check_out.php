@@ -17,37 +17,21 @@
     } );
   </script>
 
-  <style>
-    div.dataTables_filter, div.dataTables_length {
-      padding: 10px;
-    }
-
-    #myTable_filter input {
-      background-color: white;
-      border-color: black;
-    }
-
-    #myTable_length select {
-      background-color: white;
-      border-color: black;
-    }
-  </style>
-
   <div class="container-fluid">
     <h3 class="mb-3 pt-2" style="text-align: center">Check Out</h3>
 
-    <?php if (isset($_POST['check_out'])) {
-      $customer = mysqli_real_escape_string($db, $_SESSION['customer']);
-      $delete_query = "DELETE FROM enroll_in
-                       WHERE customer_id = '$customer'";
+    <?php
+      if (isset($_POST['check_out'])) {
+        $customer = mysqli_real_escape_string($db, $_SESSION['customer']);
+        $delete_query = "DELETE FROM enroll_in
+                         WHERE customer_id = '$customer'";
 
-      if (mysqli_query($db, $delete_query)) {
-        echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer checked out successfully.</div>';
-      } else {
-        echo '<div class="mb-3 alert alert-danger" role="alert" style="margin: 0 25%">Error while checking out customer.</div>';
-      };
-
-    } ?>
+        if (mysqli_query($db, $delete_query))
+          echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer checked out successfully.</div>';
+        else
+          echo '<div class="mb-3 alert alert-danger" role="alert" style="margin: 0 25%">Error while checking out customer.</div>';
+      }
+    ?>
 
     <?php
     $current_date = date("Y-m-d");
@@ -61,11 +45,11 @@
                      WHERE service_id = 2
                    )";
     $cust_result = mysqli_query($db, $cust_query);
-    $customer = mysqli_real_escape_string($db, $_POST['customer']);
+    $customer = mysqli_real_escape_string($db, $_GET['customer']);
     $charges = "SELECT * FROM customer_charges WHERE nfc_id = '$customer'";
     ?>
 
-    <form class="mb-3" action="check_out.php" method="POST" style="margin: 0 25%">
+    <form class="mb-3" action="check_out.php" method="GET" style="margin: 0 25%">
       <div class="row justify-content-end", style="float: center">
         <div class="mb-3 col-5">
           <select name="customer" class="form-control">
@@ -76,13 +60,13 @@
           </select>
         </div>
         <div class="col-4">
-          <button type="submit" name="select" value="select" class="btn btn-primary ">Select</button>
+          <button type="submit" name="select" value="1" class="btn btn-primary ">Select</button>
         </div>
         </div>
     </form>
 
-    <?php if (isset($_POST['select'])): ?>
-      <?php $result = mysqli_query($db, $charges); $_SESSION['customer'] = $_POST['customer']; $sum = 0.0; ?>
+    <?php if (isset($_GET['select'])): ?>
+      <?php $result = mysqli_query($db, $charges); $_SESSION['customer'] = $_GET['customer']; $sum = 0.0; ?>
       <hr>
       <h4 style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
       <div class="mx-auto mb-3" style="width: 50%">
