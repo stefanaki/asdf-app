@@ -1,17 +1,13 @@
 <!-- Bootstrap CSS & Javascript -->
 <link href="templates/bootstrap.min.css" rel="stylesheet">
+<link href="templates/dataTables.bootstrap5.min.css" rel="stylesheet">
+
 <script src="javascript/popper.min.js"></script>
 <script src="javascript/bootstrap.min.js"></script>
-<script src="javascript/jquery-3.6.0.min.js"></script>
+<script src="javascript/jquery-3.5.1.js"></script>
 <script src="javascript/clock.js"></script>
-
-
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
-
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
-
-
-
+<script src="javascript/jquery.dataTables.min.js"></script>
+<script src="javascript/dataTables.bootstrap5.min.js"></script>
 
 <!-- Navbar -->
  <header style="margin: 85px;">
