@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-     <title>Enroll in Services</title>
-     <meta charset="utf-8">
-   </head>
+  <head>
+    <title>Enroll in Services</title>
+    <meta charset="utf-8">
+  </head>
 
   <?php
     require_once("./templates/header.php");
     require_once("./db_connect.php");
-    ?>
+  ?>
 
   <div class="container-md">
     <h3 class="mb-3 pt-2" style="text-align: center">Specify customer and services to enroll in.</h3>
-
     <?php
       $current_date = date("Y-m-d");
       $cust_query = "SELECT CONCAT(first_name, ' ', last_name, ' (', verif_id, ')') FROM customers";
@@ -72,7 +71,6 @@
           }
         }
       }
-
     ?>
 
     <form class="mb-3" action="enroll.php" method="POST" style="margin: 0 25%">
@@ -104,7 +102,6 @@
           </div>
         </div>
       </div>
-
       <div class="row">
         <div class="mb-3 col">
           <label for="date" class="form-label">Enroll Date</label>
@@ -120,6 +117,5 @@
       </div>
     </form>
   </div>
-
-  <?php require_once("./templates/footer.php"); ?>
 </html>
+<?php require_once("./templates/footer.php"); ?>

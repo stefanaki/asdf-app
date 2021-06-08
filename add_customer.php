@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-     <title>Add Customer</title>
-     <meta charset="utf-8">
-   </head>
+  <head>
+    <title>Add Customer</title>
+    <meta charset="utf-8">
+  </head>
 
   <?php
     require_once("./templates/header.php");
     require_once("./db_connect.php");
   ?>
-
+  
   <div class="container-md">
     <h3 class="mb-3 pt-2" style="text-align: center">Insert new customer data in the form below.</h3>
-
     <?php
       $current_date = date("Y-m-d");
       if (isset($_POST['submit'])) {
@@ -46,7 +45,6 @@
         }
       }
     ?>
-
     <form class="mb-3" action="add_customer.php" method="POST" style="margin: 0 25%">
       <div class="mb-3">
         <label for="first_name" class="form-label">First Name</label>
@@ -81,7 +79,6 @@
         </div>
       </div>
       <div class="row">
-
         <div class="mb-3 col">
           <label for="verif_type" class="form-label">Verification</label>
           <select name="verif_type" name="verif_type" class="form-control">
@@ -103,6 +100,5 @@
       </div>
     </form>
   </div>
-
-  <?php require_once("./templates/footer.php"); ?>
 </html>
+<?php require_once("./templates/footer.php"); ?>

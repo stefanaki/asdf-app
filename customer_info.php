@@ -1,65 +1,59 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-     <title>Customer Info</title>
-     <meta charset="utf-8">
-   </head>
-
+  <head>
+    <title>Customer Info</title>
+    <meta charset="utf-8">
+  </head>
   <?php
     require_once("./templates/header.php");
     require_once("./db_connect.php");
     session_start();
-  ?>
-
+    ?>
   <div class="container-fluid">
     <h3 class="mb-3 pt-2" style="text-align: center">Specify a customer to view their information.</h3>
+    <?php
+      if (isset($_POST['delete'])) {
+        $customer = mysqli_real_escape_string($db, $_SESSION['customer']);
+        $delete_query = "DELETE FROM customers
+                         WHERE nfc_id = '$customer'";
 
-  <?php
-    if (isset($_POST['delete'])) {
-      $customer = mysqli_real_escape_string($db, $_SESSION['customer']);
-      $delete_query = "DELETE FROM customers
-                       WHERE nfc_id = '$customer'";
-
-      if (mysqli_query($db, $delete_query))
-        echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer deleted successfully.</div>';
-    }
-  ?>
-
-  <?php
-  $current_date = date("Y-m-d");
-  $cust_query = "SELECT nfc_id, CONCAT(first_name, ' ', last_name, ' (', verif_id, ')')
-                 FROM customers";
-  $cust_result = mysqli_query($db, $cust_query);
-  $customer = mysqli_real_escape_string($db, $_GET['customer']);
-  $cust_data = "SELECT * FROM customer_data WHERE nfc_id = '$customer'";
-  $phone_query = "SELECT * FROM customer_phones WHERE customer_id = '$customer'";
-  $email_query = "SELECT * FROM customer_emails WHERE customer_id = '$customer'";
-  $phone_nums = mysqli_query($db, $phone_query);
-  $emails = mysqli_query($db, $email_query);
-  ?>
-
+        if (mysqli_query($db, $delete_query))
+          echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer deleted successfully.</div>';
+      }
+      ?>
+    <?php
+      $current_date = date("Y-m-d");
+      $cust_query = "SELECT nfc_id, CONCAT(first_name, ' ', last_name, ' (', verif_id, ')')
+                     FROM customers";
+      $cust_result = mysqli_query($db, $cust_query);
+      $customer = mysqli_real_escape_string($db, $_GET['customer']);
+      $cust_data = "SELECT * FROM customer_data WHERE nfc_id = '$customer'";
+      $phone_query = "SELECT * FROM customer_phones WHERE customer_id = '$customer'";
+      $email_query = "SELECT * FROM customer_emails WHERE customer_id = '$customer'";
+      $phone_nums = mysqli_query($db, $phone_query);
+      $emails = mysqli_query($db, $email_query);
+      ?>
     <form class="mb-3" action="customer_info.php" method="GET" style="margin: 0 25%">
       <div class="row justify-content-end", style="float: center">
         <div class="mb-3 col-5">
           <select name="customer" class="form-control">
             <option value="-1" selected>Select Customer</option>
             <?php while ($row = mysqli_fetch_row($cust_result)): ?>
-              <option value="<?php echo htmlspecialchars($row[0]); ?>"><?php echo htmlspecialchars($row[1]); ?></option>
+            <option value="<?php echo htmlspecialchars($row[0]); ?>"><?php echo htmlspecialchars($row[1]); ?></option>
             <?php $names[$row[0]] = $row[1]; endwhile; ?>
           </select>
         </div>
         <div class="col-4">
           <button type="submit" name="select" value="1" class="btn btn-primary ">Select</button>
         </div>
-        </div>
+      </div>
     </form>
-
     <?php if (isset($_GET['select'])): ?>
-      <?php $result = mysqli_query($db, $cust_data); $_SESSION['customer'] = $_GET['customer']; $sum = 0.0; ?>
-      <hr>
-      <h4 class="mb-3" style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
-      <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3" style="width: 50%; margin: 0 25%">
-        <thead>
+    <?php $result = mysqli_query($db, $cust_data); $_SESSION['customer'] = $_GET['customer']; $sum = 0.0; ?>
+    <hr>
+    <h4 class="mb-3" style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
+    <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3" style="width: 50%; margin: 0 25%">
+      <thead>
         <tr class="text-center">
           <th scope="col">NFC ID</th>
           <th scope="col">Name</th>
@@ -72,58 +66,54 @@
       </thead>
       <tbody>
         <?php while ($row = $result->fetch_assoc()): ?>
-          <tr class="text-center">
-            <td><?php echo htmlspecialchars($row['nfc_id']); ?></td>
-            <td><?php echo htmlspecialchars($row['first_name']) . " " . htmlspecialchars($row['last_name']); ?></td>
-            <td><?php echo htmlspecialchars($row['verif_id']); ?></td>
-            <td><?php echo htmlspecialchars($row['birth']); ?></td>
-            <td><?php echo htmlspecialchars($row['age']); ?></td>
-            <td><?php echo htmlspecialchars($row['gender']); ?></td>
-            <td><?php echo htmlspecialchars($row['reserved']); ?></td>
-          </tr>
+        <tr class="text-center">
+          <td><?php echo htmlspecialchars($row['nfc_id']); ?></td>
+          <td><?php echo htmlspecialchars($row['first_name']) . " " . htmlspecialchars($row['last_name']); ?></td>
+          <td><?php echo htmlspecialchars($row['verif_id']); ?></td>
+          <td><?php echo htmlspecialchars($row['birth']); ?></td>
+          <td><?php echo htmlspecialchars($row['age']); ?></td>
+          <td><?php echo htmlspecialchars($row['gender']); ?></td>
+          <td><?php echo htmlspecialchars($row['reserved']); ?></td>
+        </tr>
         <?php endwhile; ?>
       </tbody>
+    </table>
+    <div class="d-flex flex-row text-center justify-content-center gap-5" style="margin: 0 25%">
+      <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 flex-column">
+        <thead>
+          <tr>
+            <th>Phone Number(s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php while ($row = $phone_nums->fetch_assoc()): ?>
+          <tr class="text-center">
+            <td><?php echo htmlspecialchars($row['phone_num']); ?></td>
+          </tr>
+          <?php endwhile; ?>
+        </tbody>
       </table>
-
-      <div class="d-flex flex-row text-center justify-content-center gap-5" style="margin: 0 25%">
-        <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 flex-column">
-          <thead>
-            <tr>
-              <th>Phone Number(s)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <?php while ($row = $phone_nums->fetch_assoc()): ?>
-              <tr class="text-center">
-                <td><?php echo htmlspecialchars($row['phone_num']); ?></td>
-              </tr>
-            <?php endwhile; ?>
-          </tbody>
-        </table>
-        <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 flex-column">
-          <thead>
-            <tr>
-              <th>e-mail(s)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <?php while ($row = $emails->fetch_assoc()): ?>
-              <tr class="text-center">
-                <td><?php echo htmlspecialchars($row['email']); ?></td>
-              </tr>
-            <?php endwhile; ?>
-          </tbody>
-        </table>
+      <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 flex-column">
+        <thead>
+          <tr>
+            <th>e-mail(s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php while ($row = $emails->fetch_assoc()): ?>
+          <tr class="text-center">
+            <td><?php echo htmlspecialchars($row['email']); ?></td>
+          </tr>
+          <?php endwhile; ?>
+        </tbody>
+      </table>
+    </div>
+    <form class="mb-3" action="customer_info.php" method="POST" style="margin: 0 25%">
+      <div class="mb-3 gap-2 mx-auto pt-2" style="float: right">
+        <button type="submit" name="delete" value="delete" class="btn btn-danger">Delete Customer</button>
       </div>
-
-
-      <form class="mb-3" action="customer_info.php" method="POST" style="margin: 0 25%">
-        <div class="mb-3 gap-2 mx-auto pt-2" style="float: right">
-          <button type="submit" name="delete" value="delete" class="btn btn-danger">Delete Customer</button>
-        </div>
-      </form>
+    </form>
     <?php endif; ?>
   </div>
-
-  <?php require_once("./templates/footer.php"); ?>
 </html>
+<?php require_once("./templates/footer.php"); ?>

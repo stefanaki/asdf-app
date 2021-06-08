@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-     <title>Reserve Room</title>
-     <meta charset="utf-8">
-   </head>
+  <head>
+    <title>Reserve Room</title>
+    <meta charset="utf-8">
+  </head>
 
   <?php
     require_once("./templates/header.php");
@@ -12,7 +12,6 @@
 
   <div class="container-md">
     <h3 class="mb-3 pt-2" style="text-align: center">Specify customer, room and reservation time period.</h3>
-
     <?php
       $current_date = date("Y-m-d");
       $cust_query = "SELECT CONCAT(first_name, ' ', last_name, ' (', verif_id, ')') FROM customers EXCEPT
@@ -68,14 +67,14 @@
         }
       }
     ?>
-
+    
     <form class="mb-3" action="reserve_room.php" method="POST" style="margin: 0 25%">
       <div class="mb-3">
         <label for="customer" class="form-label">Customer</label>
         <select name="customer" name="customer" class="form-control">
           <option selected>Select Customer</option>
           <?php while ($row = mysqli_fetch_row($cust_result)): ?>
-            <option value="<?php echo $row[0]; ?>"><?php echo $row[0]; ?></option>
+          <option value="<?php echo $row[0]; ?>"><?php echo $row[0]; ?></option>
           <?php endwhile; ?>
         </select>
       </div>
@@ -83,7 +82,7 @@
         <label for="room" class="form-label">Room to Reserve (Number of Beds)</label>
         <select name="room" name="room" class="form-control">
           <?php while ($row = mysqli_fetch_row($room_result)): ?>
-            <option value="<?php echo $row[0]; ?>"><?php echo $row[0]; ?></option>
+          <option value="<?php echo $row[0]; ?>"><?php echo $row[0]; ?></option>
           <?php endwhile; ?>
         </select>
       </div>
@@ -112,6 +111,5 @@
       </div>
     </form>
   </div>
-
-  <?php require_once("./templates/footer.php"); ?>
 </html>
+<?php require_once("./templates/footer.php"); ?>
