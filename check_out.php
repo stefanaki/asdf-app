@@ -105,5 +105,5 @@
     </form>
     <?php endif; ?>
   </div>
-  <?php require_once("./templates/footer.php"); ?>
 </html>
+<?php require_once("./templates/footer.php"); ?>

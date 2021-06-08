@@ -4,11 +4,13 @@
     <title>Customer Info</title>
     <meta charset="utf-8">
   </head>
+
   <?php
     require_once("./templates/header.php");
     require_once("./db_connect.php");
     session_start();
-    ?>
+  ?>
+
   <div class="container-fluid">
     <h3 class="mb-3 pt-2" style="text-align: center">Specify a customer to view their information.</h3>
     <?php
@@ -20,7 +22,7 @@
         if (mysqli_query($db, $delete_query))
           echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer deleted successfully.</div>';
       }
-      ?>
+    ?>
     <?php
       $current_date = date("Y-m-d");
       $cust_query = "SELECT nfc_id, CONCAT(first_name, ' ', last_name, ' (', verif_id, ')')
@@ -32,7 +34,8 @@
       $email_query = "SELECT * FROM customer_emails WHERE customer_id = '$customer'";
       $phone_nums = mysqli_query($db, $phone_query);
       $emails = mysqli_query($db, $email_query);
-      ?>
+    ?>
+    
     <form class="mb-3" action="customer_info.php" method="GET" style="margin: 0 25%">
       <div class="row justify-content-end", style="float: center">
         <div class="mb-3 col-5">
