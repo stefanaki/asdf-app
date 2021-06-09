@@ -9,7 +9,7 @@
     require_once("./templates/header.php");
     require_once("./db_connect.php");
   ?>
-  
+
   <div class="container-md">
     <h3 class="mb-3 pt-2" style="text-align: center">Insert new customer data in the form below.</h3>
     <?php
