@@ -1,0 +1,4061 @@
+[
+	{
+		"place_id" : 1,
+		"place_description" : "FLO0",
+		"place_type" : "FLOOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 2,
+		"place_description" : "FLO1",
+		"place_type" : "FLOOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 3,
+		"place_description" : "FLO2",
+		"place_type" : "FLOOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 4,
+		"place_description" : "FLO3",
+		"place_type" : "FLOOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 5,
+		"place_description" : "FLO4",
+		"place_type" : "FLOOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 6,
+		"place_description" : "FLO5",
+		"place_type" : "FLOOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 7,
+		"place_description" : "N",
+		"place_type" : "CORRIDOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 8,
+		"place_description" : "S",
+		"place_type" : "CORRIDOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 9,
+		"place_description" : "E",
+		"place_type" : "CORRIDOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 10,
+		"place_description" : "W",
+		"place_type" : "CORRIDOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 11,
+		"place_description" : "ELE1",
+		"place_type" : "ELEVATOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 12,
+		"place_description" : "ELE2",
+		"place_type" : "ELEVATOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 13,
+		"place_description" : "ELE3",
+		"place_type" : "ELEVATOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 14,
+		"place_description" : "ELE4",
+		"place_type" : "ELEVATOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 15,
+		"place_description" : "ELE5",
+		"place_type" : "ELEVATOR",
+		"floor_id" : null,
+		"corridor_id" : null,
+		"offered_service_id" : null,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 16,
+		"place_description" : "RES1",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 4,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 17,
+		"place_description" : "RES2",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 8,
+		"offered_service_id" : 4,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 18,
+		"place_description" : "RES3",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 9,
+		"offered_service_id" : 4,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 19,
+		"place_description" : "RES4",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 10,
+		"offered_service_id" : 4,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 20,
+		"place_description" : "BAR1",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 3,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 21,
+		"place_description" : "BAR2",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 8,
+		"offered_service_id" : 3,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 22,
+		"place_description" : "BAR3",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 9,
+		"offered_service_id" : 3,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 23,
+		"place_description" : "BAR4",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 10,
+		"offered_service_id" : 3,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 24,
+		"place_description" : "BAR5",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 10,
+		"offered_service_id" : 3,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 25,
+		"place_description" : "BAR6",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 9,
+		"offered_service_id" : 3,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 26,
+		"place_description" : "RECP",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : null,
+		"offered_service_id" : 1,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 27,
+		"place_description" : "CON1",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 28,
+		"place_description" : "CON2",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 8,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 29,
+		"place_description" : "CON3",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 9,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 30,
+		"place_description" : "CON4",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 10,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 31,
+		"place_description" : "CON5",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 32,
+		"place_description" : "CON6",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 8,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 33,
+		"place_description" : "CON7",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 9,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 34,
+		"place_description" : "CON8",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 10,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 35,
+		"place_description" : "CON9",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 36,
+		"place_description" : "CON10",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 8,
+		"offered_service_id" : 5,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 37,
+		"place_description" : "GYM1",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 6,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 38,
+		"place_description" : "GYM2",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 8,
+		"offered_service_id" : 6,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 39,
+		"place_description" : "GYM3",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 9,
+		"offered_service_id" : 6,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 40,
+		"place_description" : "GYM4",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 10,
+		"offered_service_id" : 6,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 41,
+		"place_description" : "SAU1",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 42,
+		"place_description" : "SAU2",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 8,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 43,
+		"place_description" : "SAU3",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 9,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 44,
+		"place_description" : "SAU4",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 10,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 45,
+		"place_description" : "SAU5",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 46,
+		"place_description" : "SAU6",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 8,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 47,
+		"place_description" : "SAU7",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 9,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 48,
+		"place_description" : "SAU8",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 10,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 49,
+		"place_description" : "SAU9",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 50,
+		"place_description" : "SAU10",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 8,
+		"offered_service_id" : 7,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 51,
+		"place_description" : "HAIR",
+		"place_type" : "SERVICE",
+		"floor_id" : 1,
+		"corridor_id" : 7,
+		"offered_service_id" : 8,
+		"room_capacity" : 0
+	},
+	{
+		"place_id" : 52,
+		"place_description" : "101N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 53,
+		"place_description" : "101E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 54,
+		"place_description" : "101S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 55,
+		"place_description" : "101W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 56,
+		"place_description" : "102N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 57,
+		"place_description" : "102E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 58,
+		"place_description" : "102S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 59,
+		"place_description" : "102W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 60,
+		"place_description" : "103N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 61,
+		"place_description" : "103E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 62,
+		"place_description" : "103S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 63,
+		"place_description" : "103W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 64,
+		"place_description" : "104N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 65,
+		"place_description" : "104E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 66,
+		"place_description" : "104S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 67,
+		"place_description" : "104W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 68,
+		"place_description" : "105N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 69,
+		"place_description" : "105E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 70,
+		"place_description" : "105S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 71,
+		"place_description" : "105W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 72,
+		"place_description" : "106N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 73,
+		"place_description" : "106E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 74,
+		"place_description" : "106S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 75,
+		"place_description" : "106W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 76,
+		"place_description" : "107N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 77,
+		"place_description" : "107E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 78,
+		"place_description" : "107S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 79,
+		"place_description" : "107W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 80,
+		"place_description" : "108N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 81,
+		"place_description" : "108E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 82,
+		"place_description" : "108S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 83,
+		"place_description" : "108W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 84,
+		"place_description" : "109N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 85,
+		"place_description" : "109E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 86,
+		"place_description" : "109S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 87,
+		"place_description" : "109W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 88,
+		"place_description" : "110N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 89,
+		"place_description" : "110E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 90,
+		"place_description" : "110S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 91,
+		"place_description" : "110W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 92,
+		"place_description" : "111N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 93,
+		"place_description" : "111E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 94,
+		"place_description" : "111S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 95,
+		"place_description" : "111W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 96,
+		"place_description" : "112N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 97,
+		"place_description" : "112E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 98,
+		"place_description" : "112S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 99,
+		"place_description" : "112W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 100,
+		"place_description" : "113N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 101,
+		"place_description" : "113E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 102,
+		"place_description" : "113S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 103,
+		"place_description" : "113W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 104,
+		"place_description" : "114N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 105,
+		"place_description" : "114E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 106,
+		"place_description" : "114S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 107,
+		"place_description" : "114W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 108,
+		"place_description" : "115N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 109,
+		"place_description" : "115E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 110,
+		"place_description" : "115S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 111,
+		"place_description" : "115W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 112,
+		"place_description" : "116N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 113,
+		"place_description" : "116E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 114,
+		"place_description" : "116S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 115,
+		"place_description" : "116W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 116,
+		"place_description" : "117N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 117,
+		"place_description" : "117E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 118,
+		"place_description" : "117S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 119,
+		"place_description" : "117W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 120,
+		"place_description" : "118N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 121,
+		"place_description" : "118E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 122,
+		"place_description" : "118S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 123,
+		"place_description" : "118W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 124,
+		"place_description" : "119N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 125,
+		"place_description" : "119E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 126,
+		"place_description" : "119S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 127,
+		"place_description" : "119W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 128,
+		"place_description" : "120N",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 129,
+		"place_description" : "120E",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 130,
+		"place_description" : "120S",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 131,
+		"place_description" : "120W",
+		"place_type" : "SERVICE",
+		"floor_id" : 2,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 132,
+		"place_description" : "201N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 133,
+		"place_description" : "201E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 134,
+		"place_description" : "201S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 135,
+		"place_description" : "201W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 136,
+		"place_description" : "202N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 137,
+		"place_description" : "202E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 138,
+		"place_description" : "202S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 139,
+		"place_description" : "202W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 140,
+		"place_description" : "203N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 141,
+		"place_description" : "203E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 142,
+		"place_description" : "203S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 143,
+		"place_description" : "203W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 144,
+		"place_description" : "204N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 145,
+		"place_description" : "204E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 146,
+		"place_description" : "204S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 147,
+		"place_description" : "204W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 148,
+		"place_description" : "205N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 149,
+		"place_description" : "205E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 150,
+		"place_description" : "205S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 151,
+		"place_description" : "205W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 152,
+		"place_description" : "206N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 153,
+		"place_description" : "206E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 154,
+		"place_description" : "206S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 155,
+		"place_description" : "206W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 156,
+		"place_description" : "207N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 157,
+		"place_description" : "207E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 158,
+		"place_description" : "207S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 159,
+		"place_description" : "207W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 160,
+		"place_description" : "208N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 161,
+		"place_description" : "208E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 162,
+		"place_description" : "208S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 163,
+		"place_description" : "208W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 164,
+		"place_description" : "209N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 165,
+		"place_description" : "209E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 166,
+		"place_description" : "209S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 167,
+		"place_description" : "209W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 168,
+		"place_description" : "210N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 169,
+		"place_description" : "210E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 170,
+		"place_description" : "210S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 171,
+		"place_description" : "210W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 172,
+		"place_description" : "211N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 173,
+		"place_description" : "211E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 174,
+		"place_description" : "211S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 175,
+		"place_description" : "211W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 176,
+		"place_description" : "212N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 177,
+		"place_description" : "212E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 178,
+		"place_description" : "212S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 179,
+		"place_description" : "212W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 180,
+		"place_description" : "213N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 181,
+		"place_description" : "213E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 182,
+		"place_description" : "213S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 183,
+		"place_description" : "213W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 184,
+		"place_description" : "214N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 185,
+		"place_description" : "214E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 186,
+		"place_description" : "214S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 187,
+		"place_description" : "214W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 188,
+		"place_description" : "215N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 189,
+		"place_description" : "215E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 190,
+		"place_description" : "215S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 191,
+		"place_description" : "215W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 192,
+		"place_description" : "216N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 193,
+		"place_description" : "216E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 194,
+		"place_description" : "216S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 195,
+		"place_description" : "216W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 196,
+		"place_description" : "217N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 197,
+		"place_description" : "217E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 198,
+		"place_description" : "217S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 199,
+		"place_description" : "217W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 200,
+		"place_description" : "218N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 201,
+		"place_description" : "218E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 202,
+		"place_description" : "218S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 203,
+		"place_description" : "218W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 204,
+		"place_description" : "219N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 205,
+		"place_description" : "219E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 206,
+		"place_description" : "219S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 207,
+		"place_description" : "219W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 208,
+		"place_description" : "220N",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 209,
+		"place_description" : "220E",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 210,
+		"place_description" : "220S",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 211,
+		"place_description" : "220W",
+		"place_type" : "SERVICE",
+		"floor_id" : 3,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 212,
+		"place_description" : "301N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 213,
+		"place_description" : "301E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 214,
+		"place_description" : "301S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 215,
+		"place_description" : "301W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 216,
+		"place_description" : "302N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 217,
+		"place_description" : "302E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 218,
+		"place_description" : "302S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 219,
+		"place_description" : "302W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 220,
+		"place_description" : "303N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 221,
+		"place_description" : "303E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 222,
+		"place_description" : "303S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 223,
+		"place_description" : "303W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 224,
+		"place_description" : "304N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 225,
+		"place_description" : "304E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 226,
+		"place_description" : "304S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 227,
+		"place_description" : "304W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 228,
+		"place_description" : "305N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 229,
+		"place_description" : "305E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 230,
+		"place_description" : "305S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 231,
+		"place_description" : "305W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 232,
+		"place_description" : "306N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 233,
+		"place_description" : "306E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 234,
+		"place_description" : "306S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 235,
+		"place_description" : "306W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 236,
+		"place_description" : "307N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 237,
+		"place_description" : "307E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 238,
+		"place_description" : "307S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 239,
+		"place_description" : "307W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 240,
+		"place_description" : "308N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 241,
+		"place_description" : "308E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 242,
+		"place_description" : "308S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 243,
+		"place_description" : "308W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 244,
+		"place_description" : "309N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 245,
+		"place_description" : "309E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 246,
+		"place_description" : "309S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 247,
+		"place_description" : "309W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 248,
+		"place_description" : "310N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 249,
+		"place_description" : "310E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 250,
+		"place_description" : "310S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 251,
+		"place_description" : "310W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 252,
+		"place_description" : "311N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 253,
+		"place_description" : "311E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 254,
+		"place_description" : "311S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 255,
+		"place_description" : "311W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 256,
+		"place_description" : "312N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 257,
+		"place_description" : "312E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 258,
+		"place_description" : "312S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 259,
+		"place_description" : "312W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 260,
+		"place_description" : "313N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 261,
+		"place_description" : "313E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 262,
+		"place_description" : "313S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 263,
+		"place_description" : "313W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 264,
+		"place_description" : "314N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 265,
+		"place_description" : "314E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 266,
+		"place_description" : "314S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 267,
+		"place_description" : "314W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 268,
+		"place_description" : "315N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 269,
+		"place_description" : "315E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 270,
+		"place_description" : "315S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 271,
+		"place_description" : "315W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 272,
+		"place_description" : "316N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 273,
+		"place_description" : "316E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 274,
+		"place_description" : "316S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 275,
+		"place_description" : "316W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 276,
+		"place_description" : "317N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 277,
+		"place_description" : "317E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 278,
+		"place_description" : "317S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 279,
+		"place_description" : "317W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 280,
+		"place_description" : "318N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 281,
+		"place_description" : "318E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 282,
+		"place_description" : "318S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 283,
+		"place_description" : "318W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 284,
+		"place_description" : "319N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 285,
+		"place_description" : "319E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 286,
+		"place_description" : "319S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 287,
+		"place_description" : "319W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 288,
+		"place_description" : "320N",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 289,
+		"place_description" : "320E",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 290,
+		"place_description" : "320S",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 291,
+		"place_description" : "320W",
+		"place_type" : "SERVICE",
+		"floor_id" : 4,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 292,
+		"place_description" : "401N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 293,
+		"place_description" : "401E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 294,
+		"place_description" : "401S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 295,
+		"place_description" : "401W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 296,
+		"place_description" : "402N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 297,
+		"place_description" : "402E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 298,
+		"place_description" : "402S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 299,
+		"place_description" : "402W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 300,
+		"place_description" : "403N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 301,
+		"place_description" : "403E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 302,
+		"place_description" : "403S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 303,
+		"place_description" : "403W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 304,
+		"place_description" : "404N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 305,
+		"place_description" : "404E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 306,
+		"place_description" : "404S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 307,
+		"place_description" : "404W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 308,
+		"place_description" : "405N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 309,
+		"place_description" : "405E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 310,
+		"place_description" : "405S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 311,
+		"place_description" : "405W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 312,
+		"place_description" : "406N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 313,
+		"place_description" : "406E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 314,
+		"place_description" : "406S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 315,
+		"place_description" : "406W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 316,
+		"place_description" : "407N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 317,
+		"place_description" : "407E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 318,
+		"place_description" : "407S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 319,
+		"place_description" : "407W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 320,
+		"place_description" : "408N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 321,
+		"place_description" : "408E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 322,
+		"place_description" : "408S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 323,
+		"place_description" : "408W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 324,
+		"place_description" : "409N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 325,
+		"place_description" : "409E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 326,
+		"place_description" : "409S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 327,
+		"place_description" : "409W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 328,
+		"place_description" : "410N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 329,
+		"place_description" : "410E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 330,
+		"place_description" : "410S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 331,
+		"place_description" : "410W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 332,
+		"place_description" : "411N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 333,
+		"place_description" : "411E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 334,
+		"place_description" : "411S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 335,
+		"place_description" : "411W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 336,
+		"place_description" : "412N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 337,
+		"place_description" : "412E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 338,
+		"place_description" : "412S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 339,
+		"place_description" : "412W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 340,
+		"place_description" : "413N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 341,
+		"place_description" : "413E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 342,
+		"place_description" : "413S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 343,
+		"place_description" : "413W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 344,
+		"place_description" : "414N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 345,
+		"place_description" : "414E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 346,
+		"place_description" : "414S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 347,
+		"place_description" : "414W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 348,
+		"place_description" : "415N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 349,
+		"place_description" : "415E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 350,
+		"place_description" : "415S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 351,
+		"place_description" : "415W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 352,
+		"place_description" : "416N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 353,
+		"place_description" : "416E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 354,
+		"place_description" : "416S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 355,
+		"place_description" : "416W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 356,
+		"place_description" : "417N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 357,
+		"place_description" : "417E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 358,
+		"place_description" : "417S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 359,
+		"place_description" : "417W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 360,
+		"place_description" : "418N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 361,
+		"place_description" : "418E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 362,
+		"place_description" : "418S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 363,
+		"place_description" : "418W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 364,
+		"place_description" : "419N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 365,
+		"place_description" : "419E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 366,
+		"place_description" : "419S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 367,
+		"place_description" : "419W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 368,
+		"place_description" : "420N",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 369,
+		"place_description" : "420E",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 370,
+		"place_description" : "420S",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 371,
+		"place_description" : "420W",
+		"place_type" : "SERVICE",
+		"floor_id" : 5,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 372,
+		"place_description" : "501N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 373,
+		"place_description" : "501E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 374,
+		"place_description" : "501S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 375,
+		"place_description" : "501W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 376,
+		"place_description" : "502N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 377,
+		"place_description" : "502E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 378,
+		"place_description" : "502S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 379,
+		"place_description" : "502W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 380,
+		"place_description" : "503N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 381,
+		"place_description" : "503E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 382,
+		"place_description" : "503S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 383,
+		"place_description" : "503W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 384,
+		"place_description" : "504N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 385,
+		"place_description" : "504E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 386,
+		"place_description" : "504S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 387,
+		"place_description" : "504W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 388,
+		"place_description" : "505N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 389,
+		"place_description" : "505E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 390,
+		"place_description" : "505S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 391,
+		"place_description" : "505W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 1
+	},
+	{
+		"place_id" : 392,
+		"place_description" : "506N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 393,
+		"place_description" : "506E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 394,
+		"place_description" : "506S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 395,
+		"place_description" : "506W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 396,
+		"place_description" : "507N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 397,
+		"place_description" : "507E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 398,
+		"place_description" : "507S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 399,
+		"place_description" : "507W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 400,
+		"place_description" : "508N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 401,
+		"place_description" : "508E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 402,
+		"place_description" : "508S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 403,
+		"place_description" : "508W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 404,
+		"place_description" : "509N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 405,
+		"place_description" : "509E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 406,
+		"place_description" : "509S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 407,
+		"place_description" : "509W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 408,
+		"place_description" : "510N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 409,
+		"place_description" : "510E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 410,
+		"place_description" : "510S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 411,
+		"place_description" : "510W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 2
+	},
+	{
+		"place_id" : 412,
+		"place_description" : "511N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 413,
+		"place_description" : "511E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 414,
+		"place_description" : "511S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 415,
+		"place_description" : "511W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 416,
+		"place_description" : "512N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 417,
+		"place_description" : "512E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 418,
+		"place_description" : "512S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 419,
+		"place_description" : "512W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 420,
+		"place_description" : "513N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 421,
+		"place_description" : "513E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 422,
+		"place_description" : "513S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 423,
+		"place_description" : "513W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 424,
+		"place_description" : "514N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 425,
+		"place_description" : "514E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 426,
+		"place_description" : "514S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 427,
+		"place_description" : "514W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 428,
+		"place_description" : "515N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 429,
+		"place_description" : "515E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 430,
+		"place_description" : "515S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 431,
+		"place_description" : "515W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 3
+	},
+	{
+		"place_id" : 432,
+		"place_description" : "516N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 433,
+		"place_description" : "516E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 434,
+		"place_description" : "516S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 435,
+		"place_description" : "516W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 436,
+		"place_description" : "517N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 437,
+		"place_description" : "517E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 438,
+		"place_description" : "517S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 439,
+		"place_description" : "517W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 440,
+		"place_description" : "518N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 441,
+		"place_description" : "518E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 442,
+		"place_description" : "518S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 443,
+		"place_description" : "518W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 444,
+		"place_description" : "519N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 445,
+		"place_description" : "519E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 446,
+		"place_description" : "519S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 447,
+		"place_description" : "519W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 448,
+		"place_description" : "520N",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 7,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 449,
+		"place_description" : "520E",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 9,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 450,
+		"place_description" : "520S",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 8,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	},
+	{
+		"place_id" : 451,
+		"place_description" : "520W",
+		"place_type" : "SERVICE",
+		"floor_id" : 6,
+		"corridor_id" : 10,
+		"offered_service_id" : 2,
+		"room_capacity" : 4
+	}
+]

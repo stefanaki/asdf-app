@@ -1,0 +1,152 @@
+[
+  {
+    "customer_id": 1,
+    "place_id": 54,
+    "start_date_time": "2021-05-03 12:00",
+    "end_date_time": "2021-06-20 10:00"
+  },
+  {
+    "customer_id": 2,
+    "place_id": 94,
+    "start_date_time": "2021-05-03 12:01",
+    "end_date_time": "2021-06-19 10:00"
+  },
+  {
+    "customer_id": 3,
+    "place_id": 94,
+    "start_date_time": "2021-05-03 12:02",
+    "end_date_time": "2021-06-19 10:00"
+  },
+  {
+    "customer_id": 4,
+    "place_id": 94,
+    "start_date_time": "2021-05-03 12:03",
+    "end_date_time": "2021-06-19 10:00"
+  },
+  {
+    "customer_id": 5,
+    "place_id": 66,
+    "start_date_time": "2021-05-03 12:04",
+    "end_date_time": "2021-06-18 10:00"
+  },
+  {
+    "customer_id": 6,
+    "place_id": 157,
+    "start_date_time": "2021-05-03 12:05",
+    "end_date_time": "2021-06-20 10:00"
+  },
+  {
+    "customer_id": 7,
+    "place_id": 157,
+    "start_date_time": "2021-05-03 12:06",
+    "end_date_time": "2021-06-20 10:00"
+  },
+  {
+    "customer_id": 8,
+    "place_id": 144,
+    "start_date_time": "2021-05-03 12:07",
+    "end_date_time": "2021-06-18 10:00"
+  },
+  {
+    "customer_id": 9,
+    "place_id": 52,
+    "start_date_time": "2021-05-03 12:08",
+    "end_date_time": "2021-06-18 10:00"
+  },
+  {
+    "customer_id": 10,
+    "place_id": 71,
+    "start_date_time": "2021-05-03 12:09",
+    "end_date_time": "2021-06-19 10:00"
+  },
+  {
+    "customer_id": 11,
+    "place_id": 304,
+    "start_date_time": "2021-05-03 12:10",
+    "end_date_time": "2021-06-18 10:00"
+  },
+  {
+    "customer_id": 12,
+    "place_id": 305,
+    "start_date_time": "2021-05-03 12:11",
+    "end_date_time": "2021-06-20 10:00"
+  },
+  {
+    "customer_id": 13,
+    "place_id": 386,
+    "start_date_time": "2021-05-03 12:12",
+    "end_date_time": "2021-06-18 10:00"
+  },
+  {
+    "customer_id": 14,
+    "place_id": 230,
+    "start_date_time": "2021-05-03 12:13",
+    "end_date_time": "2021-06-19 10:00"
+  },
+  {
+    "customer_id": 15,
+    "place_id": 229,
+    "start_date_time": "2021-05-03 12:14",
+    "end_date_time": "2021-06-18 10:00"
+  },
+  {
+    "customer_id": 16,
+    "place_id": 391,
+    "start_date_time": "2021-05-03 12:15",
+    "end_date_time": "2021-06-21 10:00"
+  },
+  {
+    "customer_id": 17,
+    "place_id": 118,
+    "start_date_time": "2021-05-03 12:16",
+    "end_date_time": "2021-06-20 10:00"
+  },
+  {
+    "customer_id": 18,
+    "place_id": 106,
+    "start_date_time": "2021-05-03 12:17",
+    "end_date_time": "2021-06-21 10:00"
+  },
+  {
+    "customer_id": 19,
+    "place_id": 62,
+    "start_date_time": "2021-05-03 12:18",
+    "end_date_time": "2021-06-21 10:00"
+  },
+  {
+    "customer_id": 20,
+    "place_id": 63,
+    "start_date_time": "2021-05-03 12:19",
+    "end_date_time": "2021-06-19 10:00"
+  },
+  {
+    "customer_id": 21,
+    "place_id": 104,
+    "start_date_time": "2021-05-03 12:20",
+    "end_date_time": "2021-06-18 10:00"
+  },
+  {
+    "customer_id": 22,
+    "place_id": 105,
+    "start_date_time": "2021-05-03 12:21",
+    "end_date_time": "2021-06-21 10:00"
+  },
+  {
+    "customer_id": 23,
+    "place_id": 120,
+    "start_date_time": "2021-05-03 12:22",
+    "end_date_time": "2021-06-20 10:00"
+  },
+  {
+    "customer_id": 24,
+    "place_id": 120,
+    "start_date_time": "2021-05-03 12:23",
+    "end_date_time": "2021-06-20 10:00"
+  },
+  {
+    "customer_id": 25,
+    "place_id": 67,
+    "start_date_time": "2021-05-03 12:24",
+    "end_date_time": "2021-06-21 10:00"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "nfc_id": 1,
+    "first_name": "David",
+    "last_name": "Lynch",
+    "gender": "M",
+    "date_of_birth": "1946/01/20",
+    "verif_id": 2056983201,
+    "verif_id_type": "ID",
+    "verif_date": "1982/05/09"
+  },
+  {
+    "nfc_id": 2,
+    "first_name": "Laura",
+    "last_name": "Palmer",
+    "gender": "F",
+    "date_of_birth": "1996/07/22",
+    "verif_id": "L2563248",
+    "verif_id_type": "ID",
+    "verif_date": "1999/06/24"
+  },
+  {
+    "nfc_id": 3,
+    "first_name": "Leland",
+    "last_name": "Palmer",
+    "gender": "M",
+    "date_of_birth": "1964/02/26",
+    "verif_id": "L8596475",
+    "verif_id_type": "ID",
+    "verif_date": "1975/04/28"
+  },
+  {
+    "nfc_id": 4,
+    "first_name": "Sarah",
+    "last_name": "Palmer",
+    "gender": "F",
+    "date_of_birth": "1963/03/03",
+    "verif_id": "S5269632",
+    "verif_id_type": "ID",
+    "verif_date": "1974/04/08"
+  },
+  {
+    "nfc_id": 5,
+    "first_name": "Dale",
+    "last_name": "Cooper",
+    "gender": "M",
+    "date_of_birth": "1974/04/19",
+    "verif_id": "D5863252",
+    "verif_id_type": "ID",
+    "verif_date": "1996/05/21"
+  },
+  {
+    "nfc_id": 6,
+    "first_name": "Shelly",
+    "last_name": "Johnson",
+    "gender": "F",
+    "date_of_birth": "1992/05/30",
+    "verif_id": "S8896328",
+    "verif_id_type": "ID",
+    "verif_date": "2003/07/31"
+  },
+  {
+    "nfc_id": 7,
+    "first_name": "Bobby",
+    "last_name": "Briggs",
+    "gender": "M",
+    "date_of_birth": "1989/03/29",
+    "verif_id": "B5684215",
+    "verif_id_type": "ID",
+    "verif_date": "2000/02/12"
+  },
+  {
+    "nfc_id": 8,
+    "first_name": "Donna",
+    "last_name": "Hayward",
+    "gender": "F",
+    "date_of_birth": "1992/08/02",
+    "verif_id": "D1245896",
+    "verif_id_type": "ID",
+    "verif_date": "2003/12/04"
+  },
+  {
+    "nfc_id": 9,
+    "first_name": "Jacques",
+    "last_name": "Renault",
+    "gender": "M",
+    "date_of_birth": "1995/07/10",
+    "verif_id": "A8952222",
+    "verif_id_type": "ID",
+    "verif_date": "2006/06/12"
+  },
+  {
+    "nfc_id": 10,
+    "first_name": "Nadine",
+    "last_name": "Hurley",
+    "gender": "F",
+    "date_of_birth": "1990/04/03",
+    "verif_id": "D5263842",
+    "verif_id_type": "ID",
+    "verif_date": "1999/04/06"
+  },
+  {
+    "nfc_id": 11,
+    "first_name": "Ronette",
+    "last_name": "Pulaski",
+    "gender": "F",
+    "date_of_birth": "1995/08/12",
+    "verif_id": "AI202114",
+    "verif_id_type": "ID",
+    "verif_date": "2006/05/07"
+  },
+  {
+    "nfc_id": 12,
+    "first_name": "Harry",
+    "last_name": "Truman",
+    "gender": "M",
+    "date_of_birth": "1990/02/13",
+    "verif_id": "C03004786",
+    "verif_id_type": "PASSPORT",
+    "verif_date": "2007/11/02"
+  },
+  {
+    "nfc_id": 13,
+    "first_name": "Mark",
+    "last_name": "Fischer",
+    "gender": "M",
+    "date_of_birth": "1987/11/03",
+    "verif_id": 568420,
+    "verif_id_type": "ID",
+    "verif_date": "1996/07/17"
+  },
+  {
+    "nfc_id": 14,
+    "first_name": "Audrey",
+    "last_name": "Horne",
+    "gender": "F",
+    "date_of_birth": "1997/08/22",
+    "verif_id": "P59462384",
+    "verif_id_type": "PASSPORT",
+    "verif_date": "2006/02/03"
+  },
+  {
+    "nfc_id": 15,
+    "first_name": "Andy",
+    "last_name": "Brennan",
+    "gender": "M",
+    "date_of_birth": "1994/12/13",
+    "verif_id": "AI424242",
+    "verif_id_type": "ID",
+    "verif_date": "2011/05/06"
+  },
+  {
+    "nfc_id": 16,
+    "first_name": "Ben",
+    "last_name": "Horne",
+    "gender": "M",
+    "date_of_birth": "2000/07/15",
+    "verif_id": "AT587482",
+    "verif_id_type": "ID",
+    "verif_date": "2009/03/01"
+  },
+  {
+    "nfc_id": 17,
+    "first_name": "Maddy",
+    "last_name": "Ferguson",
+    "gender": "F",
+    "date_of_birth": "1996/10/23",
+    "verif_id": "MF562430",
+    "verif_id_type": "PASSPORT",
+    "verif_date": "2007/06/05"
+  },
+  {
+    "nfc_id": 18,
+    "first_name": "Garland",
+    "last_name": "Briggs",
+    "gender": "M",
+    "date_of_birth": "1985/07/30",
+    "verif_id": "P122685410",
+    "verif_id_type": "ID",
+    "verif_date": "1993-12-03"
+  },
+  {
+    "nfc_id": 19,
+    "first_name": "Hank",
+    "last_name": "Jennings",
+    "gender": "M",
+    "date_of_birth": "1994-08-15",
+    "verif_id": "H62738465",
+    "verif_id_type": "PASSPORT",
+    "verif_date": "1999/06/08"
+  },
+  {
+    "nfc_id": 20,
+    "first_name": "Leo",
+    "last_name": "Johnson",
+    "gender": "M",
+    "date_of_birth": "1995/10/07",
+    "verif_id": "S1012010",
+    "verif_id_type": "ID",
+    "verif_date": "2001/3/5"
+  },
+  {
+    "nfc_id": 21,
+    "first_name": "Thomas",
+    "last_name": "Eckhardt",
+    "gender": "M",
+    "date_of_birth": "1999/7/16",
+    "verif_id": "T78901627",
+    "verif_id_type": "ID",
+    "verif_date": "2007/3/1"
+  },
+  {
+    "nfc_id": 22,
+    "first_name": "Jean-Michel",
+    "last_name": "Renault",
+    "gender": "M",
+    "date_of_birth": "1995/07/10",
+    "verif_id": "J10928722",
+    "verif_id_type": "ID",
+    "verif_date": "2006/4/4"
+  },
+  {
+    "nfc_id": 23,
+    "first_name": "Lawrence",
+    "last_name": "Jacoby",
+    "gender": "M",
+    "date_of_birth": "1970/10/1",
+    "verif_id": "L58642612",
+    "verif_id_type": "PASSPORT",
+    "verif_date": "1980/1/3"
+  },
+  {
+    "nfc_id": 24,
+    "first_name": "Margaret",
+    "last_name": "Lanterman",
+    "gender": "F",
+    "date_of_birth": "1969/3/5",
+    "verif_id": "I58594739",
+    "verif_id_type": "ID",
+    "verif_date": "1976/06/10"
+  },
+  {
+    "nfc_id": 25,
+    "first_name": "Teresa",
+    "last_name": "Banks",
+    "gender": "F",
+    "date_of_birth": "1989/7/21",
+    "verif_id": "T72819766",
+    "verif_id_type": "ID",
+    "verif_date": "1996/7/12"
+  }
+]
