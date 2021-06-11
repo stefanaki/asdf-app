@@ -11,7 +11,7 @@
   ?>
 
   <div class="container-md">
-    <h3 class="mb-3 pt-2" style="text-align: center">Insert new customer data in the form below.</h3>
+    <h3 class="mb-3 mt-3" style="text-align: center">Insert new customer data in the form below.</h3>
     <?php
       $current_date = date("Y-m-d");
       if (isset($_POST['submit'])) {
