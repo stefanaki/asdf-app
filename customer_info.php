@@ -12,7 +12,7 @@
   ?>
 
   <div class="container-fluid">
-    <h3 class="mb-3 pt-2" style="text-align: center">Specify a customer to view their information.</h3>
+    <h3 class="mb-3 mt-3" style="text-align: center">Specify a customer to view their information.</h3>
     <?php
       if (isset($_POST['delete'])) {
         $customer = mysqli_real_escape_string($db, $_SESSION['customer']);
@@ -35,7 +35,7 @@
       $phone_nums = mysqli_query($db, $phone_query);
       $emails = mysqli_query($db, $email_query);
     ?>
-    
+
     <form class="mb-3" action="customer_info.php" method="GET" style="margin: 0 25%">
       <div class="row justify-content-end", style="float: center">
         <div class="mb-3 col-5">

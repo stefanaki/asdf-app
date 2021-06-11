@@ -18,7 +18,7 @@
   </script>
 
   <div class="container-fluid">
-    <h3 class="mb-3 pt-2" style="text-align: center">Check Out</h3>
+    <h3 class="mb-3 mt-3" style="text-align: center">Check Out</h3>
     <?php
       if (isset($_POST['check_out'])) {
         $customer = mysqli_real_escape_string($db, $_SESSION['customer']);
@@ -66,7 +66,7 @@
     <hr>
     <h4 style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
     <div class="mx-auto mb-3" style="width: 50%">
-      <table id="myTable" class="table table-striped  table-hover border border-dark border-2 mx-auto mb-2 text-start" style="width: 100%; margin: 0 25%">
+      <table id="myTable" class="table table-striped table-hover border border-dark border-2 mx-auto mb-2 text-start" style="width: 100%; margin: 0 25%">
         <thead>
           <tr>
             <th scope="col" class="text-center">Date</th>

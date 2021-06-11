@@ -11,7 +11,7 @@
   ?>
 
   <div class="container-md">
-    <h3 class="mb-3 pt-2" style="text-align: center">Specify customer, room and reservation time period.</h3>
+    <h3 class="mb-3 mt-3" style="text-align: center">Specify customer, room and reservation time period.</h3>
     <?php
       $current_date = date("Y-m-d");
       $cust_query = "SELECT CONCAT(first_name, ' ', last_name, ' (', verif_id, ')') FROM customers EXCEPT
@@ -67,7 +67,7 @@
         }
       }
     ?>
-    
+
     <form class="mb-3" action="reserve_room.php" method="POST" style="margin: 0 25%">
       <div class="mb-3">
         <label for="customer" class="form-label">Customer</label>
