@@ -9,9 +9,9 @@
 <script src="assets/javascript/dataTables.bootstrap5.min.js"></script>
 
 <!-- Navbar -->
-<header style="margin: 85px;">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="margin-bottom: 200px;">
-    <div class="container-md">
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid" style="width: 85%">
       <a href="index.php" class="navbar-brand">
         <h2>
           ASDF Hotel
@@ -28,12 +28,26 @@
               <a class="nav-link active" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="add_customer.php">COVID-19</a>
+              <a class="nav-link active" aria-current="page" href="index.php">COVID-19 Tracking</a>
             </li>
             <li class="nav-item dropdown">
               <a class="active nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Hotel Management
+              Statistics
               </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="visits_by_criteria.php">Visits by Criteria</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Charges per Service</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="reserve_room.php">Stats per Age Group</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hotel Management</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="customer_info.php">Customer Info</a></li>
                 <li>
@@ -53,7 +67,7 @@
       </div>
       <div style="color: white">
         <span id="timestamp">
-          <pre>                                  </pre>
+          <pre>                                   </pre>
         </span>
       </div>
     </div>
