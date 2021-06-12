@@ -20,7 +20,7 @@
       </a>
       <div style="color: white">
         <span id="timestamp">
-          
+
         </span>
       </div>
       <div class="justify-content-right">
@@ -44,12 +44,8 @@
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="most_used_services.php">Most Used Services</a></li>
-                <li><a class="dropdown-item" href="most_visited_places.php">Most Visited Places</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="service_stats.php">Other Service Stats</a></li>
+                <li><a class="dropdown-item" href="places.php">Places</a></li>
+                <li><a class="dropdown-item" href="services.php">Services</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
