@@ -18,6 +18,11 @@
           <small class="text-muted">Customer Activity Record</small>
         </h2>
       </a>
+      <div style="color: white">
+        <span id="timestamp">
+          
+        </span>
+      </div>
       <div class="justify-content-right">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,11 +44,12 @@
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Charges per Service</a></li>
+                <li><a class="dropdown-item" href="most_used_services.php">Most Used Services</a></li>
+                <li><a class="dropdown-item" href="most_visited_places.php">Most Visited Places</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="reserve_room.php">Stats per Age Group</a></li>
+                <li><a class="dropdown-item" href="service_stats.php">Other Service Stats</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -65,11 +71,7 @@
           </ul>
         </div>
       </div>
-      <div style="color: white">
-        <span id="timestamp">
-          <pre>                                   </pre>
-        </span>
-      </div>
+
     </div>
   </nav>
 </header>
