@@ -16,18 +16,18 @@
 
 ## Features
 - Basic hotel management operations
--- View customer information
--- Insert new customer
--- Make a room reservation
--- Enroll customer in non-free services
--- Check out a customer
+  - View customer information
+  - Insert new customer
+  - Make a room reservation
+  - Enroll customer in non-free services
+  - Check out a customer
 - Customer activity statistics per age group
--- Most visited places
--- Most used services
--- Charges per service
+  - Most visited places
+  - Most used services
+  - Charges per service
 - COVID-19
--- View the visit log of customer infected with COVID-19
--- Find out other possibly infected customers
+  - View the visit log of customer infected with COVID-19
+  - Find out other possibly infected customers
 
 ## Installation
 
