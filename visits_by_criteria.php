@@ -43,13 +43,13 @@
         $failure = 1;
       } else {
         if ($date_check == '1' && ($_GET['start'] == '' || $_GET['end'] == '')) {
-          echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto mt-3" role="alert style="margin: 0 25%">Both dates fields are required.</div>';
+          echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto mt-3" role="alert style="margin: 0 25%">Both date fields are required.</div>';
           $failure = 1;
         } else {
           $start .= " 00:00:00";
           $end .= " 23:59:59";
           if ($service_check != '1' && $date_check != '1' && $charge_check != '1') {
-            echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">Please select at least one condition.</div>';
+            echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert" style="margin: 0 25%">Please select at least one condition.</div>';
             $failure = 1;
           } else {
             $failure = 0;
