@@ -32,6 +32,10 @@
   - View the visit log of customer infected with COVID-19
   - Find out other possibly infected customers
 
+## Relational Model
+
+To be done
+
 ## Installation
 
 To be done
