@@ -11,7 +11,7 @@
   ?>
 
   <div class="container-md">
-    <h3 class="mb-3 mt-3" style="text-align: center">Specify customer and services to enroll in.</h3>
+    <h3 class="mb-3 mt-3" style="text-align: center">Specify customer and services to enroll in</h3>
     <?php
       $current_date = date("Y-m-d");
       $cust_query = "SELECT CONCAT(first_name, ' ', last_name, ' (', verif_id, ')') FROM customers";

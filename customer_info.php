@@ -12,7 +12,7 @@
   ?>
 
   <div class="container-fluid">
-    <h3 class="mb-3 mt-3" style="text-align: center">Specify a customer to view their information.</h3>
+    <h3 class="mb-3 mt-3" style="text-align: center">Specify a customer to view their information</h3>
     <?php
       if (isset($_POST['delete'])) {
         $customer = mysqli_real_escape_string($db, $_SESSION['customer']);
