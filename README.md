@@ -11,6 +11,7 @@
 - Bootstrap 5
 - Jquery Datatables
 - Python 3.9.5
+- HTML/CSS/JS
 
 ## Partners
 - Odysseas Boufalis
