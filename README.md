@@ -8,6 +8,8 @@
 - MariaDB 15.1
 - PHP 8.0.6
 - Apache Server 2.4.47-1
+- Bootstrap 5
+- Jquery Datatables
 - Python 3.9.5
 
 ## Partners
