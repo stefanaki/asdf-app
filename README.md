@@ -10,8 +10,8 @@
 - PHP 8.0.6
 - HTML-CSS-Javascript
 - Bootstrap 5
-- Jquery Datatables
-- Python 3.9.5
+- jQuery Datatables
+- Python 3.9
 
 ## Partners
 - Odysseas Boufalis
