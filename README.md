@@ -34,7 +34,7 @@
 
 ## Relational Model
 
-To be done
+![alt text](database/relational.png)
 
 ## Installation
 
