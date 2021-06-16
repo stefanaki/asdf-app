@@ -4,14 +4,14 @@
 
 > Semestrial student project for the course "Introduction to Databases" taught at ECE NTUA 2021. Essentially, a PHP - MySQL application that manages a hypothetical hotel with NFC-enabled access for every room and tracks the activity of customers who have been (possibly) infected with COVID-19.
 
-## Tools Used and Requirements
+## Tools Used
 - MariaDB 15.1
 - Apache Server 2.4.47-1
 - PHP 8.0.6
 - HTML-CSS-Javascript
 - Bootstrap 5
-- Jquery Datatables
-- Python 3.9.5
+- jQuery Datatables
+- Python 3.9
 
 ## Partners
 - Odysseas Boufalis
