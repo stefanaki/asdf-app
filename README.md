@@ -32,7 +32,7 @@
   - View the visit log of customer infected with COVID-19
   - Find out other possibly infected customers
 
-## Relational Model
+## Relational Diagram
 
 ![alt text](database/relational.png)
 
