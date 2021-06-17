@@ -28,12 +28,6 @@
       $cust_query = "SELECT nfc_id, CONCAT(first_name, ' ', last_name, ' (', verif_id, ')')
                      FROM customers";
       $cust_result = mysqli_query($db, $cust_query);
-      $customer = mysqli_real_escape_string($db, $_GET['customer']);
-      $cust_data = "SELECT * FROM customer_data WHERE nfc_id = '$customer'";
-      $phone_query = "SELECT * FROM customer_phones WHERE customer_id = '$customer'";
-      $email_query = "SELECT * FROM customer_emails WHERE customer_id = '$customer'";
-      $phone_nums = mysqli_query($db, $phone_query);
-      $emails = mysqli_query($db, $email_query);
     ?>
 
     <form class="mb-3" action="customer_info.php" method="GET" style="margin: 0 25%">
@@ -52,6 +46,14 @@
       </div>
     </form>
     <?php if (isset($_GET['select'])): ?>
+    <?php
+      $customer = mysqli_real_escape_string($db, $_GET['customer']);
+      $cust_data = "SELECT * FROM customer_data WHERE nfc_id = '$customer'";
+      $phone_query = "SELECT * FROM customer_phones WHERE customer_id = '$customer'";
+      $email_query = "SELECT * FROM customer_emails WHERE customer_id = '$customer'";
+      $phone_nums = mysqli_query($db, $phone_query);
+      $emails = mysqli_query($db, $email_query);
+    ?>
     <?php $result = mysqli_query($db, $cust_data); $_SESSION['customer'] = $_GET['customer']; $sum = 0.0; ?>
     <hr>
     <h4 class="mb-3" style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
