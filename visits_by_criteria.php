@@ -21,6 +21,7 @@
     <h3 class="mb-3 mt-3" style="text-align: center">Visits by Criteria</h3>
 
   <?php
+    $failure = 1;
     if (isset($_GET['select'])) {
       if (isset($_GET['service_check'])) $service_check = $_GET['service_check'];
       if (isset($_GET['date_check'])) $date_check = $_GET['date_check'];
@@ -38,35 +39,34 @@
       if (isset($_GET['start'])) $start = $_GET['start'];
       if (isset($_GET['end'])) $end = $_GET['end'];
 
-      if ($charge_check == '1' && !is_numeric($charge)) {
+      if (isset($_GET['charge_check']) && $charge_check == '1' && !is_numeric($charge)) {
         echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto mt-3" role="alert style="margin: 0 25%">Please enter a valid charge value.</div>';
         $failure = 1;
       } else {
-        if ($date_check == '1' && ($_GET['start'] == '' || $_GET['end'] == '')) {
+        if (isset($_GET['date_check']) && $date_check == '1' && ($_GET['start'] == '' || $_GET['end'] == '')) {
           echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto mt-3" role="alert style="margin: 0 25%">Both date fields are required.</div>';
           $failure = 1;
         } else {
           $start .= " 00:00:00";
           $end .= " 23:59:59";
-          if ($service_check != '1' && $date_check != '1' && $charge_check != '1') {
+          if (!isset($_GET['service_check']) && !isset($_GET['date_check']) && !isset($_GET['charge_check'])) {
             echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert" style="margin: 0 25%">Please select at least one condition.</div>';
             $failure = 1;
           } else {
             $failure = 0;
-            if ($service_check == '1') {
-              if ($date_check == '1' && $charge_check == '1') {
+            if (isset($_GET['service_check']) && $service_check == '1') {
+              if (isset($_GET['date_check']) && isset($_GET['charge_check']) && $date_check == '1' && $charge_check == '1') {
                 $q .= "WHERE p.offered_service_id = '$service' AND u.charge_amount <= '$charge' AND v.timestamp_in BETWEEN '$start' AND '$end'";
-                $title = $service_name[$service] . " " . $start . " / " . $end . " " . $charge;
-              } else if ($date_check == '1' && $charge_check != '1')
+              } else if (isset($_GET['date_check']) && $date_check == '1' && !isset($_GET['charge_check']))
                 $q .= "WHERE p.offered_service_id = '$service' AND v.timestamp_in BETWEEN '$start' AND '$end'";
-              else if ($date_check != '1' && $charge_check == '1')
+              else if (!isset($_GET['date_check']) && isset($_GET['charge_check']) && $charge_check == '1')
                 $q .= "WHERE p.offered_service_id = '$service' AND u.charge_amount <= '$charge'";
               else
                 $q .= "WHERE p.offered_service_id = '$service'";
             } else {
-              if ($date_check == '1' && $charge_check == '1')
+              if (isset($_GET['date_check']) && isset($_GET['charge_check']) && $date_check == '1' && $charge_check == '1')
                 $q .= "WHERE u.charge_amount <= '$charge' AND v.timestamp_in BETWEEN '$start' AND '$end'";
-              else if ($date_check == '1' && $charge_check != '1')
+              else if (isset($_GET['date_check']) && $date_check == '1' && !isset($_GET['charge_check']))
                 $q .= "WHERE v.timestamp_in BETWEEN '$start' AND '$end'";
               else
                 $q .= "WHERE u.charge_amount <= '$charge'";
