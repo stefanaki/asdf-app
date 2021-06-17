@@ -21,6 +21,8 @@
       if (empty(mysqli_fetch_row($cust_result))) {
         echo '<div class="mb-3 alert alert-primary d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">All customers have reserved a room.</div>';
         $disable = true;
+      } else {
+        $disable = false;
       }
       $cust_result = mysqli_query($db, $cust_query);
       $room_query = "SELECT CONCAT(place_description, ' (', room_capacity, ')') FROM places WHERE offered_service_id = 2";
