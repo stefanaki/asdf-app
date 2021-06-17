@@ -43,8 +43,6 @@
                        WHERE service_id = 2
                      )";
       $cust_result = mysqli_query($db, $cust_query);
-      $customer = mysqli_real_escape_string($db, $_GET['customer']);
-      $charges = "SELECT * FROM customer_charges WHERE nfc_id = '$customer'";
     ?>
     <form class="mb-3" action="check_out.php" method="GET" style="margin: 0 25%">
       <div class="row justify-content-end", style="float: center">
@@ -62,7 +60,13 @@
       </div>
     </form>
     <?php if (isset($_GET['select'])): ?>
-    <?php $result = mysqli_query($db, $charges); $_SESSION['customer'] = $_GET['customer']; $sum = 0.0; ?>
+    <?php
+      $customer = mysqli_real_escape_string($db, $_GET['customer']);
+      $charges = "SELECT * FROM customer_charges WHERE nfc_id = '$customer'";
+      $result = mysqli_query($db, $charges);
+      $_SESSION['customer'] = $_GET['customer'];
+      $sum = 0.0;
+    ?>
     <hr>
     <h4 style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
     <div class="mx-auto mb-3" style="width: 50%">
