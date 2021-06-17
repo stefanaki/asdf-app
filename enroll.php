@@ -19,11 +19,11 @@
 
       if (isset($_POST['submit'])) {
         $id = mysqli_real_escape_string($db, trim(explode(' ', $_POST['customer'])[2], '()'));
-        if (($_POST['conf_check'] !== "yes" && $_POST['gym_check'] !== "yes" && $_POST['sauna_check'] !== "yes") || empty($_POST['date']) || empty($_POST['time']) || $_POST['customer'] == "-1")
+        if ((!isset($_POST['conf_check']) && !isset($_POST['gym_check']) && !isset($_POST['sauna_check'])) || empty($_POST['date']) || empty($_POST['time']) || $_POST['customer'] == "-1")
           echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">All fields are required.</div>';
         else {
           $datetime = mysqli_real_escape_string($db, $_POST['date'] . ' ' . $_POST['time'] . ':00');
-          if ($_POST['conf_check'] == "yes") {
+          if (isset($_POST['conf_check']) && $_POST['conf_check'] == "yes") {
             $check_if_enrolled = "SELECT COUNT(*) from enroll_in e, customers c
                                   WHERE c.verif_id = '$id' AND e.customer_id = c.nfc_id
                                   AND e.service_id = 5";
@@ -38,7 +38,7 @@
                 echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer enrolled in service Conference Room successfully.</div>';
             }
           }
-          if ($_POST['gym_check'] == "yes") {
+          if (isset($_POST['gym_check']) && $_POST['gym_check'] == "yes") {
             $check_if_enrolled = "SELECT COUNT(*) from enroll_in e, customers c
                                   WHERE c.verif_id = '$id' AND e.customer_id = c.nfc_id
                                   AND e.service_id = 6";
@@ -54,7 +54,7 @@
             }
           }
 
-          if ($_POST['sauna_check'] == "yes") {
+          if (isset($_POST['sauna_check']) && $_POST['sauna_check'] == "yes") {
             $check_if_enrolled = "SELECT COUNT(*) from enroll_in e, customers c
                                   WHERE c.verif_id = '$id' AND e.customer_id = c.nfc_id
                                   AND e.service_id = 7";
