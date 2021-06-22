@@ -13,10 +13,6 @@
 - jQuery Datatables
 - Python 3.9
 
-## Partners
-- Odysseas Boufalis
-- Anna Douska
-
 ## Features
 - Basic hotel management operations
   - View customer information
@@ -39,3 +35,7 @@
 ## Installation
 
 To be done
+
+## Partners
+- Odysseas Boufalis
+- Anna Douska
