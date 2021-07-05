@@ -1,10 +1,2 @@
-<img src="screenshots/Screenshot 2021-07-05 at 13-28-27 ASDF Home.png">
-<img src="screenshots/Screenshot 2021-07-05 at 13-29-00 Customer Info.png">
-<img src="screenshots/Screenshot 2021-07-05 at 13-29-19 Add Customer.png">
-<img src="screenshots/Screenshot 2021-07-05 at 13-29-24 Reserve Room.png">
-<img src="screenshots/Screenshot 2021-07-05 at 13-29-30 Enroll in Services.png">
-<img src="screenshots/Screenshot 2021-07-05 at 13-29-41 Check Out.png">
-<img src="screenshots/Screenshot 2021-07-05 at 13-30-22 Visits by Criteria.png">
-<img src="screenshots/Screenshot 2021-07-05 at 13-30-33 Place Statistics.png">
-<img src="screenshots/Screenshot 2021-07-05 at 13-30-45 Service Statistics.png">
-<img src="screenshots/Screenshot 2021-07-05 at 13-31-35 COVID-19 Tracking.png">
+<img src="https://github.com/stefanaki/asdf_app/blob/203d5710bef438cba625acd1dc5369f386d8acea/screenshots/Screenshot%202021-07-05%20at%2013-28-27%20ASDF%20Home.png">
+
