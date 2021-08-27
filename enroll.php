@@ -73,7 +73,7 @@
       }
     ?>
 
-    <form class="mb-3" action="enroll.php" method="POST" style="margin: 0 25%">
+    <form class="mb-3 mx-auto" action="enroll.php" method="POST" style="max-width: 700px">
       <div class="mb-3">
         <label for="customer" class="form-label">Customer</label>
         <select name="customer" name="customer" class="form-control">

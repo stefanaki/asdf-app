@@ -10,19 +10,7 @@
     require_once("./db_connect.php");
     session_start();
     ?>
-  <script>
-    $(document).ready( function () {
-      $('#myTable').DataTable( {
-         "order": [[ 1, "asc" ]]
-       } );
-    } );
 
-    $(document).ready( function () {
-      $('#myTable2').DataTable( {
-         "order": [[ 2, "desc" ]]
-       } );
-    } );
-  </script>
   <?php
     $current_date = date("Y-m-d");
     $cust_query = "SELECT nfc_id, CONCAT(first_name, ' ', last_name, ' (', verif_id, ')') FROM customers";
@@ -60,30 +48,33 @@
         }
       }
       ?>
-    <form class="mb-3 mx-auto" action="covid19_tracking.php" method="GET" style="width: 50%">
-      <div class="col-5 mx-auto mb-3">
-        <select name="customer" class="form-control">
-          <option value="-1" selected>Select Customer</option>
-          <?php while ($row = mysqli_fetch_row($cust_result)): ?>
-          <option value="<?php echo htmlspecialchars($row[0]); ?>"><?php echo htmlspecialchars($row[1]); ?></option>
-          <?php $names[$row[0]] = $row[1]; endwhile; ?>
-        </select>
-      </div>
-      <div class="col-5 mx-auto mb-3">
-        <label for="date" class="form-label">Date Diagnosed Positive</label>
-        <input type="date" class="form-control" name="date" max="<?php echo $current_date; ?>">
-      </div>
-      <div class="d-grid gap-2 col-2 mx-auto mb-3 pt-2">
-        <button type="submit" name="select" value="1" class="btn btn-primary ">Select</button>
+    <form class="mb-3 mx-auto" style="max-width: 600px" action="covid19_tracking.php" method="GET">
+      <div class="row">
+        <div class="col-md mx-auto mb-3">
+          <label for="customer" class="form-label">Select Customer</label>
+          <select name="customer" class="form-control">
+            <option value="-1" selected>Select Customer</option>
+            <?php while ($row = mysqli_fetch_row($cust_result)): ?>
+            <option value="<?php echo htmlspecialchars($row[0]); ?>"><?php echo htmlspecialchars($row[1]); ?></option>
+            <?php $names[$row[0]] = $row[1]; endwhile; ?>
+          </select>
+        </div>
+        <div class="col-md mx-auto mb-3">
+          <label for="date" class="form-label">Date Diagnosed Positive</label>
+          <input type="date" class="form-control" name="date" max="<?php echo $current_date; ?>">
+        </div>
+        <div class="mb-3 pt-2" style="display: flex; align-items: center; justify-content: center;">
+          <button type="submit" name="select" value="1" class="btn btn-primary">Select</button>
+        </div>
       </div>
     </form>
     <?php if (isset($_GET['select']) && $_GET['date'] != "" && $_GET['customer'] != -1): ?>
     <hr>
-    <div class="flexbox">
-      <div class="item">
+    <div class="flexbox row">
+      <div class="item col-lg">
         <div class="content">
           <div class="mx-auto mb-3">
-            <table id="myTable" class="table table-striped table-hover border border-dark border-2 mx-auto mb-2 text-start" style="width: 100%; margin: 0 25%">
+            <table id="myTable" class="table table-striped table-hover border border-dark border-2 mx-auto mb-2 text-start">
               <thead>
                 <tr>
                   <th scope="col"><?php echo $names[$_SESSION['customer']] . " "; ?> visits for five days before <?php echo $_SESSION['date']; ?></th>
@@ -102,10 +93,10 @@
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item col-lg">
         <div class="content">
           <div class="mx-auto mb-3">
-            <table id="myTable2" class="table table-striped table-hover border border-dark border-2 mx-auto mb-2 text-start" style="width: 100%; margin: 0 25%">
+            <table id="myTable2" class="table table-striped table-hover border border-dark border-2 mx-auto mb-2 text-start">
               <thead>
                 <tr>
                   <th scope="col">Possibly infected customers</th>
@@ -129,4 +120,18 @@
       </div>
     </div>
   </div>
+
+  <script>
+    $(document).ready( function () {
+      $('#myTable').DataTable( {
+         "order": [[ 1, "asc" ]]
+       } );
+    } );
+
+    $(document).ready( function () {
+      $('#myTable2').DataTable( {
+         "order": [[ 2, "desc" ]]
+       } );
+    } );
+  </script>
 </html>

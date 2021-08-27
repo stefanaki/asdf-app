@@ -120,7 +120,7 @@
   <div class="container-md">
   <h3 class="mb-4 mt-3" style="text-align: center">Services</h3>
   <h4 class="mb-3 mt-3" style="text-align: center">Most used services</h4>
-  <div class="accordion mx-auto" id="ac" style="width: 40%">
+  <div class="accordion mx-auto" id="ac" style="max-width: 600px">
     <div class="accordion-item">
       <h2 class="accordion-header" id="panelsStayOpen-headingOne">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -152,8 +152,8 @@
   <br>
   <br>
   <h4 class="mb-3 mt-3" style="text-align: center">Most used services per age group</h4>
-  <div class="flexbox">
-    <div class="item">
+  <div class="flexbox row">
+    <div class="item col-md">
       <div class="content">
         <h5 class="mb-3 mt-3" style="text-align: center">Past Month</h5>
         <div class="accordion mx-auto" id="ac1">
@@ -241,7 +241,7 @@
         </div>
       </div>
     </div>
-    <div class="item">
+    <div class="item col-md">
       <div class="content">
         <h5 class="mb-3 mt-3" style="text-align: center">Past Year</h5>
         <div class="accordion mx-auto" id="ac2">
@@ -331,8 +331,8 @@
     </div>
   </div>
   <h4 class="mb-3 mt-3" style="text-align: center">Most used services by most customers per age group</h4>
-  <div class="flexbox">
-    <div class="item">
+  <div class="flexbox row">
+    <div class="item col-md">
       <div class="content">
         <h5 class="mb-3 mt-3" style="text-align: center">Past Month</h5>
         <div class="accordion mx-auto" id="ac3">
@@ -420,7 +420,7 @@
         </div>
       </div>
     </div>
-    <div class="item">
+    <div class="item col-md">
       <div class="content">
         <h5 class="mb-3 mt-3" style="text-align: center">Past Year</h5>
         <div class="accordion mx-auto" id="ac4">

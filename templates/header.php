@@ -8,38 +8,37 @@
 <script src="assets/javascript/jquery.dataTables.min.js"></script>
 <script src="assets/javascript/dataTables.bootstrap5.min.js"></script>
 
+<style> body { background-color:#e9ecef } </style>
+
 <!-- Navbar -->
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid" style="width: 85%">
+    <div class="container-fluid mx-4">
       <a href="index.php" class="navbar-brand">
         <h2>
           ASDF Hotel
           <small class="text-muted">Customer Activity Record</small>
         </h2>
       </a>
-      <div style="color: white">
-        <span id="timestamp">
-
-        </span>
+      <div style="color: white" class="d-none d-xl-block">
+        <span id="timestamp"></span>
       </div>
+
       <div class="justify-content-right">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+              <a class="nav-link active" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="covid19_tracking.php">COVID-19 Tracking</a>
+              <a class="nav-link active d-none d-md-none d-xl-block" href="covid19_tracking.php">COVID-19 Tracking</a>
+              <a class="nav-link active d-block d-xl-none" href="covid19_tracking.php">COVID-19</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="active nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="active nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
               Statistics
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="visits_by_criteria.php">Visits by Criteria</a></li>
                 <li>
                   <hr class="dropdown-divider">
@@ -49,8 +48,8 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hotel Management</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="nav-link active nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Hotel Management</a>
+              <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="customer_info.php">Customer Info</a></li>
                 <li>
                   <hr class="dropdown-divider">
@@ -68,8 +67,9 @@
         </div>
       </div>
 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
   </nav>
 </header>
-
-<body style="background-color:#e9ecef">

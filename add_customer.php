@@ -45,7 +45,7 @@
         }
       }
     ?>
-    <form class="mb-3" action="add_customer.php" method="POST" style="margin: 0 25%">
+    <form class="mb-3 mx-auto" action="add_customer.php" method="POST" style="max-width: 700px">
       <div class="mb-3">
         <label for="first_name" class="form-label">First Name</label>
         <input type="text" class="form-control" name="first_name" placeholder="First Name">

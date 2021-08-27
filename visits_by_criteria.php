@@ -78,9 +78,9 @@
   }
   ?>
 
-    <form class="mb-3" action="visits_by_criteria.php" method="GET" style="margin: 0 25%">
-      <div class="row justify-content-end", style="float: center">
-        <div class="mb-3 col-5">
+    <form class="mb-3 mx-auto" action="visits_by_criteria.php" method="GET" style="max-width: 700px">
+      <div class="row mx-auto" style="justify-content: center; max-width: 500px">
+        <div class="mb-3 col">
           <select name="service" class="form-control">
             <option value="-1" selected>Select Service</option>
             <option value="3">Bar</option>
@@ -91,37 +91,41 @@
             <option value="8">Hair Salon</option>
           </select>
         </div>
-        <div class="col-4">
+        <div class="col-2 mb-3" style="display: flex; align-items: center; justify-content: center;">
           <input type="checkbox" value="1" name="service_check" class="btn-check col-4" id="b1" autocomplete="off">
           <label class="btn btn-outline-secondary" for="b1">Select</label>
         </div>
       </div>
 
-  <div class="d-flex flex-row justify-content-center gap-4 mb-3">
-      <div class="flex-column">
-        <label for="start" class="form-label">Start Date</label>
-        <input type="date" class="form-control" name="start">
-      </div>
-      <div class="flex-column">
-        <label for="end" class="form-label">End Date</label>
-        <input type="date" class="form-control" name="end" min="<?php echo $current_date; ?>">
-      </div>
-      <div class="flex-column" style="margin-left: 0; margin-top: auto">
-        <input type="checkbox" value="1" name="date_check" class="btn-check col-4" id="b2" autocomplete="off">
-        <label class="btn btn-outline-secondary" for="b2">Select</label>
-      </div>
-    </div>
 
-    <div class="d-flex flex-row justify-content-center gap-4 mb-3">
-      <div class="flex-column">
-        <label for="charge" class="form-label">Maximum Charge Amount</label>
-        <input type="text" class="form-control" name="charge" placeholder="0000.00">
+    <div class="row mx-auto" style="justify-content: center; max-width: 1000px">
+        <div class="mb-3 col">
+          <label for="start" class="form-label">Start Date</label>
+          <input type="date" class="form-control" name="start">
+        </div>
+        <div class="mb-3 col">
+          <label for="end" class="form-label">End Date</label>
+          <input type="date" class="form-control" name="end" min="<?php echo $current_date; ?>">
+        </div>
+        <div class="mb-3 col-2">
+          <input type="checkbox" value="1" name="date_check" class="btn-check col-4" id="b2" autocomplete="off">
+          <label class="btn btn-outline-secondary" for="b2">Select</label>
+        </div>
       </div>
-      <div class="flex-column" style="margin-left: 0; margin-top: auto">
-        <input type="checkbox" value="1" name="charge_check" class="btn-check col-4" id="b3" autocomplete="off">
-        <label class="btn btn-outline-secondary" for="b3">Select</label>
+
+
+
+      <div class="row mx-auto" style="justify-content: center; max-width: 500px">
+        <div class="mb-3 col">
+          <label for="charge" class="form-label">Maximum Charge Amount</label>
+          <input type="text" class="form-control" name="charge" placeholder="0000.00">
+        </div>
+        <div class="col-2 mb-3" style="display: flex; align-items: center; justify-content: center;">
+          <input type="checkbox" value="1" name="charge_check" class="btn-check col-4" id="b3" autocomplete="off">
+          <label class="btn btn-outline-secondary" for="b3">Select</label>
+        </div>
       </div>
-    </div>
+
 
     <div class="d-grid gap-2 col-2 mx-auto mb-3 pt-2">
       <button type="submit" name="select" value="1" class="btn btn-primary">Search</button>
@@ -131,8 +135,8 @@
 
     <?php if ($failure == 0): $result = mysqli_query($db, $q); ?>
       <hr>
-      <div class="mx-auto mb-3" style="width: 50%">
-        <table id="myTable" class="table table-striped table-hover border border-dark border-2 mx-auto mb-2 text-start" style="width: 100%; margin: 0 25%">
+      <div class="mx-auto mb-3" style="max-width: 900px">
+        <table id="myTable" class="table table-striped table-hover border border-dark border-2 mx-auto mb-2 text-start">
           <thead>
             <tr>
               <th scope="col" class="text-center">Date-Time In/Out</th>

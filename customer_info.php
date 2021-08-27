@@ -11,7 +11,7 @@
     session_start();
   ?>
 
-  <div class="container-fluid">
+  <div class="container-fluid" style="max-width: 900px">
     <h3 class="mb-3 mt-3" style="text-align: center">Specify a customer to view their information</h3>
     <?php
       if (isset($_POST['delete'])) {
@@ -30,9 +30,9 @@
       $cust_result = mysqli_query($db, $cust_query);
     ?>
 
-    <form class="mb-3" action="customer_info.php" method="GET" style="margin: 0 25%">
-      <div class="row justify-content-end", style="float: center">
-        <div class="mb-3 col-5">
+    <form class="mb-3 mx-auto" action="customer_info.php" method="GET">
+      <div class="row" style="justify-content: center;">
+        <div class="mb-3 col-md" style="max-width: 500px">
           <select name="customer" class="form-control">
             <option value="-1" selected>Select Customer</option>
             <?php while ($row = mysqli_fetch_row($cust_result)): ?>
@@ -40,8 +40,8 @@
             <?php $names[$row[0]] = $row[1]; endwhile; ?>
           </select>
         </div>
-        <div class="col-4">
-          <button type="submit" name="select" value="1" class="btn btn-primary ">Select</button>
+        <div class="col-md-1 mb-3" style="display: flex; align-items: center; justify-content: center;">
+          <button type="submit" name="select" value="1" class="btn btn-primary">Select</button>
         </div>
       </div>
     </form>
@@ -57,7 +57,7 @@
     <?php $result = mysqli_query($db, $cust_data); $_SESSION['customer'] = $_GET['customer']; $sum = 0.0; ?>
     <hr>
     <h4 class="mb-3" style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
-    <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3" style="width: 50%; margin: 0 25%">
+    <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3">
       <thead>
         <tr class="text-center">
           <th scope="col">NFC ID</th>
@@ -83,8 +83,8 @@
         <?php endwhile; ?>
       </tbody>
     </table>
-    <div class="d-flex flex-row text-center justify-content-center gap-5" style="margin: 0 25%">
-      <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 flex-column">
+    <div class="d-flex row text-center justify-content-center gap-5 mx-auto" style="max-width: 900px">
+      <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 col-md">
         <thead>
           <tr>
             <th>Phone Number(s)</th>
@@ -98,7 +98,7 @@
           <?php endwhile; ?>
         </tbody>
       </table>
-      <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 flex-column">
+      <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 col-md">
         <thead>
           <tr>
             <th>e-mail(s)</th>
@@ -113,7 +113,7 @@
         </tbody>
       </table>
     </div>
-    <form class="mb-3" action="customer_info.php" method="POST" style="margin: 0 25%">
+    <form class="mb-3" action="customer_info.php" method="POST">
       <div class="mb-3 gap-2 mx-auto pt-2" style="float: right">
         <button type="submit" name="delete" value="delete" class="btn btn-danger">Delete Customer</button>
       </div>

@@ -44,9 +44,9 @@
                      )";
       $cust_result = mysqli_query($db, $cust_query);
     ?>
-    <form class="mb-3" action="check_out.php" method="GET" style="margin: 0 25%">
-      <div class="row justify-content-end", style="float: center">
-        <div class="mb-3 col-5">
+    <form class="mb-3 mx-auto" action="check_out.php" method="GET" style="max-width: 700px">
+      <div class="row" style="justify-content: center;">
+        <div class="mb-3 col-md" style="max-width: 500px">
           <select name="customer" class="form-control">
             <option value="-1" selected>Select Customer</option>
             <?php while ($row = mysqli_fetch_row($cust_result)): ?>
@@ -54,8 +54,8 @@
             <?php $names[$row[0]] = $row[1]; endwhile; ?>
           </select>
         </div>
-        <div class="col-4">
-          <button type="submit" name="select" value="1" class="btn btn-primary ">Select</button>
+        <div class="col-md-1 mb-3" style="display: flex; align-items: center; justify-content: center;">
+          <button type="submit" name="select" value="1" class="btn btn-primary">Select</button>
         </div>
       </div>
     </form>
@@ -69,8 +69,8 @@
     ?>
     <hr>
     <h4 style="text-align: center"><?php echo $names[$_SESSION['customer']]; ?></h4>
-    <div class="mx-auto mb-3" style="width: 50%">
-      <table id="myTable" class="table table-striped table-hover border border-dark border-2 mx-auto mb-2 text-start" style="width: 100%; margin: 0 25%">
+    <div class="mx-auto mb-3" style="max-width: 950px">
+      <table id="myTable" class="table table-striped table-hover border border-dark border-2 mx-auto mb-2 text-start">
         <thead>
           <tr>
             <th scope="col" class="text-center">Date</th>
@@ -92,7 +92,7 @@
         </tbody>
       </table>
     </div>
-    <table class="table table-striped  table-hover border border-dark border-2 mx-auto mb-3 text-start" style="width: 50%; margin: 0 25%">
+    <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 text-start" style="max-width: 950px">
       <tbody>
         <tr class="text-start table-active table-primary">
           <td><b>Total Charges</b></td>
@@ -103,7 +103,7 @@
       </tbody>
     </table>
     <form class="mb-3" action="check_out.php" method="POST" style="margin: 0 25%">
-      <div class="mb-3 d-grid gap-2 col-3 mx-auto">
+      <div style="display: flex; align-items: center; justify-content: center;">
         <button type="submit" name="check_out" value="check_out" class="btn btn-danger">Check Out</button>
       </div>
     </form>

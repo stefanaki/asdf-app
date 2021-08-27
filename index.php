@@ -8,17 +8,23 @@
     require_once("./templates/header.php");
     require_once("./db_connect.php");
   ?>
+<body>
+  <div class="container">
+    <h3 class="mb-3 mt-3 text-center">NTUA Databases Semestrial Project 2021</h3>
+    <div style="display: flex; justify-content: space-between; max-width: 80%" class="row my-3 mx-auto">
+      <div class="col-lg text-center">
+        <p class="">Anna Douska</p>
+      </div>
+      <div class="col-lg text-center">
+        <p class="">Odyssefs - Dimitrios Boufalis</p>
+      </div>
+      <div class="col-lg text-center">
+        <p class="">Georgios Stefanakis</p>
+      </div>
+    </div>
 
-<div class="container-md">
-  <h3 class="mb-3 mt-3 text-center">NTUA Databases Semestrial Project 2021</h3>
-  <div class="row mx-auto mb-3 pt-3" style="width: 55%">
-    <p class="col text-start text-center">Anna Douska</p>
-    <p class="col align-center text-center">Odyssefs - Dimitrios Boufalis</p>
-    <p class="col text-end text-center">Georgios Stefanakis</p>
+    <img src="assets/monet.jpg" alt="Claude Monet" class="rounded border border-dark mx-auto d-block mb-4 img-fluid" style="width: 700px">
   </div>
-
-<img src="assets/monet.jpg" alt="Claude Monet" class="border border-dark" style="width:60%; height:60%; display:block; margin-left: auto; margin-right: auto;">
-</div>
-
-  <?php require_once("./templates/footer.php"); ?>
+</body>
+<?php require_once("./templates/footer.php"); ?>
 </html>
