@@ -107,7 +107,7 @@
           <label for="end" class="form-label">End Date</label>
           <input type="date" class="form-control" name="end" min="<?php echo $current_date; ?>">
         </div>
-        <div class="mb-3 col-2">
+        <div class="mb-3 col-2" style="align-self: flex-end">
           <input type="checkbox" value="1" name="date_check" class="btn-check col-4" id="b2" autocomplete="off">
           <label class="btn btn-outline-secondary" for="b2">Select</label>
         </div>
@@ -120,7 +120,7 @@
           <label for="charge" class="form-label">Maximum Charge Amount</label>
           <input type="text" class="form-control" name="charge" placeholder="0000.00">
         </div>
-        <div class="col-2 mb-3" style="display: flex; align-items: center; justify-content: center;">
+        <div class="col-2 mb-3" style="align-self: flex-end">
           <input type="checkbox" value="1" name="charge_check" class="btn-check col-4" id="b3" autocomplete="off">
           <label class="btn btn-outline-secondary" for="b3">Select</label>
         </div>
