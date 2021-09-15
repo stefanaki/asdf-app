@@ -10,14 +10,14 @@
     require_once("./db_connect.php");
   ?>
 
-  <div class="container-md">
+  <div class="container-md" style="max-width: 700px">
     <h3 class="mb-3 mt-3" style="text-align: center">Insert new customer data in the form below</h3>
     <?php
       $current_date = date("Y-m-d");
       if (isset($_POST['submit'])) {
         if (empty($_POST['first_name']) || empty($_POST['last_name']) || empty($_POST['date_of_birth']) || empty($_POST['verif_id'])
          || empty($_POST['verif_date']) || empty($_POST['email']) ||  empty($_POST['phone']))
-            echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">All fields are required.</div>';
+            echo '<div class="mb-3 alert alert-danger" role="alert">All fields are required.</div>';
         else {
           $first = mysqli_real_escape_string($db, $_POST['first_name']);
           $last = mysqli_real_escape_string($db, $_POST['last_name']);
@@ -31,21 +31,21 @@
 
           $query = "INSERT INTO customers (first_name, last_name, gender, date_of_birth, verif_id, verif_id_type, verif_date) VALUES ('$first', '$last', '$gender', '$dob', '$verif_id', '$verif_type', '$verif_date')";
           if (mysqli_query($db, $query))
-            echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer inserted successfully.</div>';
+            echo '<div class="mb-3 alert alert-success" role="alert">Customer inserted successfully.</div>';
           else
-            echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">Error while inserting customer.</div>';
+            echo '<div class="mb-3 alert alert-danger" role="alert">Error while inserting customer.</div>';
 
           $query = "INSERT INTO customer_phones (customer_id, phone_num) SELECT c.nfc_id, '$phone_num' FROM customers c WHERE c.verif_id = '$verif_id'";
           if (!mysqli_query($db, $query))
-            echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">Error while inserting phone number.</div>';
+            echo '<div class="mb-3 alert alert-danger" role="alert">Error while inserting phone number.</div>';
 
           $query = "INSERT INTO customer_emails (customer_id, email) SELECT c.nfc_id, '$email' FROM customers c WHERE c.verif_id = '$verif_id'";
           if (!mysqli_query($db, $query))
-            echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">Error while inserting e-mail.</div>';
+            echo '<div class="mb-3 alert alert-danger" role="alert">Error while inserting e-mail.</div>';
         }
       }
     ?>
-    <form class="mb-3 mx-auto" action="add_customer.php" method="POST" style="max-width: 700px">
+    <form class="mb-3 mx-auto" action="add_customer.php" method="POST">
       <div class="mb-3">
         <label for="first_name" class="form-label">First Name</label>
         <input type="text" class="form-control" name="first_name" placeholder="First Name">

@@ -20,7 +20,7 @@
                          WHERE nfc_id = '$customer'";
 
         if (mysqli_query($db, $delete_query))
-          echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer deleted successfully.</div>';
+          echo '<div class="mb-3 alert alert-success" role="alert">Customer deleted successfully.</div>';
       }
     ?>
     <?php

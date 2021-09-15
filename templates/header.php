@@ -17,7 +17,7 @@
       <a href="index.php" class="navbar-brand">
         <h2>
           ASDF Hotel
-          <small class="text-muted">Customer Activity Record</small>
+          <small class="text-muted d-none d-md-inline">Customer Activity Record</small>
         </h2>
       </a>
       <div style="color: white" class="d-none d-xl-block">

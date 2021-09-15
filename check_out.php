@@ -17,7 +17,7 @@
     } );
   </script>
 
-  <div class="container-fluid">
+  <div class="container-fluid" style="max-width: 950px">
     <h3 class="mb-3 mt-3" style="text-align: center">Check Out</h3>
     <?php
       if (isset($_POST['check_out'])) {
@@ -26,9 +26,9 @@
                          WHERE customer_id = '$customer'";
 
         if (mysqli_query($db, $delete_query))
-          echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Customer checked out successfully.</div>';
+          echo '<div class="mb-3 alert alert-success" role="alert">Customer checked out successfully.</div>';
         else
-          echo '<div class="mb-3 alert alert-danger" role="alert" style="margin: 0 25%">Error while checking out customer.</div>';
+          echo '<div class="mb-3 alert alert-danger" role="alert">Error while checking out customer.</div>';
       }
     ?>
     <?php
@@ -44,7 +44,7 @@
                      )";
       $cust_result = mysqli_query($db, $cust_query);
     ?>
-    <form class="mb-3 mx-auto" action="check_out.php" method="GET" style="max-width: 700px">
+    <form class="mb-3 mx-auto" action="check_out.php" method="GET">
       <div class="row" style="justify-content: center;">
         <div class="mb-3 col-md" style="max-width: 500px">
           <select name="customer" class="form-control">
@@ -92,7 +92,7 @@
         </tbody>
       </table>
     </div>
-    <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 text-start" style="max-width: 950px">
+    <table class="table table-striped table-hover border border-dark border-2 mx-auto mb-3 text-start">
       <tbody>
         <tr class="text-start table-active table-primary">
           <td><b>Total Charges</b></td>
@@ -102,7 +102,7 @@
         </tr>
       </tbody>
     </table>
-    <form class="mb-3" action="check_out.php" method="POST" style="margin: 0 25%">
+    <form class="mb-3" action="check_out.php" method="POST">
       <div style="display: flex; align-items: center; justify-content: center;">
         <button type="submit" name="check_out" value="check_out" class="btn btn-danger">Check Out</button>
       </div>

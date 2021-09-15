@@ -10,7 +10,7 @@
     require_once("./db_connect.php");
   ?>
 
-  <div class="container-md">
+  <div class="container-md" style="max-width: 700px">
     <h3 class="mb-3 mt-3" style="text-align: center">Specify customer, room and reservation time period</h3>
     <?php
       $current_date = date("Y-m-d");
@@ -19,7 +19,7 @@
                      WHERE c.nfc_id = e.customer_id AND e.service_id = 2";
       $cust_result = mysqli_query($db, $cust_query);
       if (empty(mysqli_fetch_row($cust_result))) {
-        echo '<div class="mb-3 alert alert-primary d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">All customers have reserved a room.</div>';
+        echo '<div class="mb-3 alert alert-primary" role="alert">All customers have reserved a room.</div>';
         $disable = true;
       } else {
         $disable = false;
@@ -31,7 +31,7 @@
       if (isset($_POST['submit'])) {
         if (empty($_POST['in_date']) || empty($_POST['in_time']) ||
             empty($_POST['out_date']) || empty($_POST['out_time']))
-              echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">All fields are required.</div>';
+              echo '<div class="mb-3 alert alert-danger" role="alert">All fields are required.</div>';
         else {
           $id = trim(explode(' ', $_POST['customer'])[2], '()');
           $id = mysqli_real_escape_string($db, $id);
@@ -40,7 +40,7 @@
           $out = mysqli_real_escape_string($db, $_POST['out_date'] . ' ' . $_POST['out_time'] . ':00');
 
           if ($in === $out) {
-            echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">Check in and check out timestamps should not be identical.</div>';
+            echo '<div class="mb-3 alert alert-danger" role="alert">Check in and check out timestamps should not be identical.</div>';
             exit;
           }
 
@@ -51,7 +51,7 @@
           $room_capacity = (int) trim(explode(' ', $_POST['room'])[1], '()');
 
           if ($how_many === $room_capacity) {
-            echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">The room is full.</div>';
+            echo '<div class="mb-3 alert alert-danger" role="alert">The room is full.</div>';
             exit;
           }
 
@@ -63,14 +63,14 @@
                             WHERE c.verif_id = '$id' AND p.place_description = '$room'";
 
           if (mysqli_query($db, $enroll) && mysqli_query($db, $reservation))
-            echo '<div class="mb-3 alert alert-success" role="alert" style="margin: 0 25%">Room reserved successfully.</div>';
+            echo '<div class="mb-3 alert alert-success" role="alert">Room reserved successfully.</div>';
           else
-            echo '<div class="mb-3 alert alert-danger d-grid gap-2 col-6 mx-auto" role="alert style="margin: 0 25%">Error while reserving room / enrolling in service ROOM.</div>';
+            echo '<div class="mb-3 alert alert-danger" role="alert">Error while reserving room / enrolling in service ROOM.</div>';
         }
       }
     ?>
 
-    <form class="mb-3 mx-auto" action="reserve_room.php" method="POST" style="max-width: 700px">
+    <form class="mb-3 mx-auto" action="reserve_room.php" method="POST">
       <div class="mb-3">
         <label for="customer" class="form-label">Customer</label>
         <select name="customer" name="customer" class="form-control">
