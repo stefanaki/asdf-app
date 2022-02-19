@@ -1,6 +1,9 @@
+<?php if(!isset($_SESSION)) session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <?php require_once('./templates/includes.php'); ?>
+
     <title>Place Statistics</title>
     <meta charset="utf-8">
     <link href="assets/css/flex.css" rel="stylesheet">
@@ -8,7 +11,6 @@
   <?php
     require_once("./templates/header.php");
     require_once("./db_connect.php");
-    session_start();
     ?>
   <?php
     $q1 = "select p.place_description,p.place_id,count(*) as number_of_visits

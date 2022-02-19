@@ -1,6 +1,9 @@
+<?php if(!isset($_SESSION)) session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <?php require_once('./templates/includes.php'); ?>
+
     <title>Check Out</title>
     <meta charset="utf-8">
   </head>
@@ -8,7 +11,6 @@
   <?php
     require_once("./templates/header.php");
     require_once("./db_connect.php");
-    session_start();
   ?>
 
   <script>

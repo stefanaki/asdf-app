@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <?php require_once('./templates/includes.php'); ?>
+
     <title>Enroll in Services</title>
     <meta charset="utf-8">
   </head>
